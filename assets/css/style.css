@@ -80,7 +80,7 @@ body {
 
 .nav-logo-head a {
     text-decoration: none;
-    color: #2EA9CD;
+    color: #fff;
     font-weight: 500;
     margin-left: 10px;
     font-size: 19px;
@@ -299,7 +299,6 @@ body {
     z-index: 10000;
     display: none;
     padding: 3% 3% 3% 13%;
-    opacity: 0.9;
 }
 
 .sidebar-head {
@@ -389,7 +388,7 @@ body {
     color: #2EA9CD;
     font-size: 17px;
     margin-bottom: 20px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 
@@ -478,7 +477,7 @@ body {
 
 .company-logo p {
     color: #2EA9CD;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -836,6 +835,20 @@ body {
     MEDIA QUERY MOBILE PHONE(550PX)
 ***************************************/
 @media screen and (max-width: 550px) {
+    
+    /*nav*/
+    .nav-logo-head a {
+        font-size: 16px;
+    }
+    
+    .nav-search a i {
+        font-size: 16px;
+    }
+    
+    .nav-settings-menu a i {
+        font-size: 16px;
+    }
+    
     /*home slider*/
     #sliderHeader {
         font-size: 20px;
@@ -896,13 +909,19 @@ body {
     }
     
     /*footer*/
+    
+    #footer {
+        padding-left: 0;
+    }
     .footer-content {
         float: none;
         width: 100%;
+        padding: 10px 20px;
     }
     
     .footer-content h3 {
         font-size: 14px;
+        margin-bottom: 10px;
     }
     
     .footer-navs ul li a {

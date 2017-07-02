@@ -1,0 +1,477 @@
+[
+    {
+        "id" : "solutions",
+        "route" : "solutions",
+        "name" : "Solutions",
+        "icon" : "fa fa-cogs",
+        "links" : [
+            {
+                "header": "IoT",
+                "subLinks": [
+                    {
+                        "name" : "Iot Solutions",
+                        "route" : "solution-link"
+                    },
+                    {
+                        "name" : "Iot Solutions",
+                        "route" : "solution-link"
+                    },
+                    {
+                        "name" : "Iot Solutions",
+                        "route" : "solution-link"
+                    },
+                    {
+                        "name" : "Iot Solutions",
+                        "route" : "solution-link"
+                    }
+                ]
+            },
+            {
+                "header": "Big Data Analytics",
+                "subLinks": [
+                    {
+                        "name" : "BDA Solutions",
+                        "route" : "bda-link"
+                    },
+                    {
+                        "name" : "BDA Solutions",
+                        "route" : "bda-link"
+                    },
+                    {
+                        "name" : "BDA Solutions",
+                        "route" : "bda-link"
+                    },
+                    {
+                        "name" : "BDA Solutions",
+                        "route" : "bda-link"
+                    }
+                ]
+            },
+            {
+                "header": "Node.JS",
+                "subLinks": [
+                    {
+                        "name" : "Node.JS Solutions",
+                        "route" : "nodeJs-link"
+                    },
+                    {
+                        "name" : "Node.JS Solutions",
+                        "route" : "nodeJs-link"
+                    },
+                    {
+                        "name" : "Node.JS Solutions",
+                        "route" : "nodeJs-link"
+                    },
+                    {
+                        "name" : "Node.JS Solutions",
+                        "route" : "nodeJs-link"
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "id" : "cloudServices",
+        "route" : "cloud-service",
+        "name" : "Cloud Services",
+        "icon" : "fa fa-cloud",
+        "links" : [
+            {
+                "header": "Cloud Services",
+                "subLinks": [
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Cloud Services",
+                "subLinks": [
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Cloud Services",
+                "subLinks": [
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Cloud Services",
+                "subLinks": [
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Cloud service",
+                        "route" : "route-link"
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "id" : "products",
+        "route" : "products",
+        "name" : "Products",
+        "icon" : "fa fa-product-hunt",
+        "links" : [
+            {
+                "header": "Products Name",
+                "subLinks": [
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Products Name",
+                "subLinks": [
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Products Name",
+                "subLinks": [
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Products Name",
+                "subLinks": [
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "Product example",
+                        "route" : "route-link"
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "id" : "company",
+        "route" : "company",
+        "name" : "Company",
+        "icon" : "fa fa-building-o",
+        "links" : [
+            {
+                "header": "Company Information",
+                "subLinks": [
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Company Information",
+                "subLinks": [
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Company Information",
+                "subLinks": [
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Company Information",
+                "subLinks": [
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "company info",
+                        "route" : "route-link"
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "id" : "support",
+        "route" : "support",
+        "name" : "Support",
+        "icon" : "fa fa-life-ring",
+        "links" : [
+            {
+                "header": "Support Information",
+                "subLinks": [
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Support Information",
+                "subLinks": [
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Support Information",
+                "subLinks": [
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    }
+                ]
+            },
+            {
+                "header": "Support Information",
+                "subLinks": [
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    },
+                    {
+                        "name" : "support info",
+                        "route" : "route-link"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

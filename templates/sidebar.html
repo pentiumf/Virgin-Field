@@ -1,0 +1,66 @@
+<aside class="sidebar-container">
+    <div class="sidebar">
+        <ul>
+            <li> <a href="javascript:void(0)" class="close-slideBar"><i class="fa fa-close" aria-hidden="true"></i></a>
+                <a href="javascript:void(0)" class="slide-link" data-tab="solutions"> <i class="fa fa-cogs" aria-hidden="true"></i>Solutions </a>
+            </li>
+            
+            <li>
+                <a href="javascript:void(0)" class="responsive-slide-link" data-tab="solutions"> <i class="fa fa-cogs" aria-hidden="true"></i>Solutions <span class="nav-arrowRight"><i class="fa fa-arrow-right"></i></span></a>
+            </li>
+            
+            
+            <li> <a href="javascript:void(0)" class="close-slideBar"><i class="fa fa-close" aria-hidden="true"></i></a>
+                <a href="javascript:void(0)" class="slide-link" data-tab="cloudServices"> <i class="fa fa-cloud" aria-hidden="true"></i>Cloud Services </a>
+            </li>
+            
+            <li> 
+                <a href="javascript:void(0)" class="responsive-slide-link" data-tab="cloudServices"> <i class="fa fa-cloud" aria-hidden="true"></i>Cloud Services <span class="nav-arrowRight"><i class="fa fa-arrow-right"></i></span></a>
+            </li>
+            
+            
+            <li> <a href="javascript:void(0)" class="close-slideBar"><i class="fa fa-close" aria-hidden="true"></i></a>
+                <a href="javascript:void(0)" class="slide-link" data-tab="products"> <i class="fa fa-product-hunt" aria-hidden="true"></i>Products </a>
+            </li>
+            
+            <li>
+                <a href="javascript:void(0)" class="responsive-slide-link" data-tab="products"> <i class="fa fa-product-hunt" aria-hidden="true"></i>Products <span class="nav-arrowRight"><i class="fa fa-arrow-right"></i></span></a>
+            </li>
+            
+            
+            <li> <a href="javascript:void(0)" class="close-slideBar"><i class="fa fa-close" aria-hidden="true"></i></a>
+                <a href="javascript:void(0)" class="slide-link" data-tab="company"> <i class="fa fa-building-o" aria-hidden="true"></i>Company </a>
+            </li>
+            
+            <li>
+                <a href="javascript:void(0)" class="responsive-slide-link" data-tab="company"> <i class="fa fa-building-o" aria-hidden="true"></i>Company <span class="nav-arrowRight"><i class="fa fa-arrow-right"></i></span></a>
+            </li>
+            
+            
+            <li> <a href="javascript:void(0)" class="close-slideBar"><i class="fa fa-close" aria-hidden="true"></i></a>
+                <a href="javascript:void(0)" class="slide-link" data-tab="support"> <i class="fa fa-life-ring" aria-hidden="true"></i>Support </a>
+            </li>
+            
+            <li>
+                <a href="javascript:void(0)" class="responsive-slide-link" data-tab="support"> <i class="fa fa-life-ring" aria-hidden="true"></i>Support <span class="nav-arrowRight"><i class="fa fa-arrow-right"></i></span></a>
+            </li>
+        </ul>
+    </div>
+</aside>
+
+
+<div ng-repeat="data in sideBarData" id="{{data.id}}" class="slide-bar-wrapper animated slideInLeft">
+   
+    <div class="slide-bar-content">
+        <div class="sidebar-head"> <a href=""><i class="{{data.icon}}"></i> {{data.name}}</a> <a href="javascript:void(0)" class="close-responsiveTab"><i class="fa fa-close"></i></a></div>
+        <div class="slidebar-link-wrapper clearfix">
+            <div ng-repeat="mainLink in data.links" class="sidebar-links">
+                <h4>{{mainLink.header}}</h4>
+                <ul>
+                    <li ng-repeat="subLink in mainLink.subLinks"><a href="#/{{subLink.route}}">{{subLink.name}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>

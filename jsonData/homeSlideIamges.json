@@ -1,0 +1,26 @@
+[
+    {
+        "image" : "IoT.jpg",
+        "captionHead" : "Internet Of Thing Solutions",
+        "captionDetails" : "We offer the best of IoT solutions world wide",
+        "buttonCaption" : "learn more"
+    },
+    {
+        "image" : "artificial-intelligence.jpg",
+        "captionHead" : "Artificial Interligence",
+        "captionDetails" : "We offer the best of AI solutions",
+        "buttonCaption" : "resgister now"
+    },
+    {
+        "image" : "bigdataanalysis.jpg",
+        "captionHead" : "Big Data Analitics",
+        "captionDetails" : "We offer the best of Ibig data solutions",
+        "buttonCaption" : "explore"
+    },
+    {
+        "image" : "machineLearning.jpg",
+        "captionHead" : "Machine Learning",
+        "captionDetails" : "We offer the best of training in machine learning",
+        "buttonCaption" : "learn more"
+    }
+]

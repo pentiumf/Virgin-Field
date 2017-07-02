@@ -196,7 +196,8 @@ angular.module("appDirectives", []).directive("navBar", function () {
             carou.flickity({
               cellAlign: 'left',
               contain: true,
-              autoPlay: true    
+              autoPlay: true,
+              freeScroll: true    
             });
         },
         templateUrl: 'templates/trainingCarousel.html'

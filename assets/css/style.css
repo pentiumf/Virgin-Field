@@ -770,10 +770,10 @@ body {
     .responsive-slide-link i {
         display: inline-block;
         padding-right: 10px;
+        font-size: 16px;
     }
     
     .slide-bar-wrapper {
-        bottom: inherit;
         padding: 3% 4%;
     }
     
@@ -853,6 +853,11 @@ body {
 @media screen and (max-width: 550px) {
     
     /*nav*/
+    
+    .nav-search {
+        margin-right: 8%;
+    }
+    
     .nav-logo-head a {
         font-size: 16px;
     }
@@ -877,6 +882,10 @@ body {
     .slide figcaption a {
         padding: 6px 20px;
         font-size: 11px;
+    }
+    
+    .sidebar-links ul li a {
+        display: block;
     }
     
     /*home carousle*/

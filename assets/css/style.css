@@ -96,7 +96,7 @@ body {
 .nav-settings-menu a {
     text-decoration: none;
     color: #fff;
-
+    margin-right: 10px;
 }
 
 .nav-settings-menu a i {
@@ -162,7 +162,7 @@ body {
     top: 44px;
     z-index: 2000;
     width: 73%;
-    background: #000;
+    background: #141414;
     opacity: 0.9;
     display: none;
 }
@@ -299,6 +299,7 @@ body {
     z-index: 10000;
     display: none;
     padding: 3% 3% 3% 13%;
+    overflow: scroll;
 }
 
 .sidebar-head {
@@ -402,7 +403,7 @@ body {
     padding: 8px 4px;
     color: #fff;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
 }
 
@@ -530,14 +531,14 @@ body {
 
 .slide figcaption h2 {
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .slide figcaption p {
     font-size: 16px;
     margin-bottom: 15px;
-    font-weight: 200;
+    
 }
 
 
@@ -707,6 +708,11 @@ body {
         display: inline-block;
     }
     
+    #searchEngine {
+        left: 0;
+        width: 100%;
+    }
+    
     /*settings*/
     
     .nav-settings-menu {
@@ -797,6 +803,13 @@ body {
         height: 400px;
     }
     
+    #sliderHeader {
+        display: none;
+    }
+    
+    .slide figcaption {
+        padding: 0px 10px 0px 30px;
+    }
     
     
     /*home paralax*/
@@ -827,7 +840,10 @@ body {
         width: 60%;
     }
     
-    
+    /*footer*/
+    #footer {
+        padding-left: 0;
+    }
 }
 
 
@@ -842,11 +858,11 @@ body {
     }
     
     .nav-search a i {
-        font-size: 16px;
+        font-size: 24px;
     }
     
     .nav-settings-menu a i {
-        font-size: 16px;
+        font-size: 24px;
     }
     
     /*home slider*/
@@ -855,11 +871,7 @@ body {
     }
     
     .slide figcaption h2{
-        font-size: 16px;
-    }
-    
-    .slide figcaption p {
-        font-size: 10px;
+        font-size: 22px;
     }
     
     .slide figcaption a {
@@ -889,13 +901,9 @@ body {
     }
     
     #homeParalaxHead h3 {
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 16px;
     }
     
-    #homeParalaxcaption h2 {
-        font-size: 12px;
-    }
     
     #home-start-nowbtn a {
         padding: 5px 18px;
@@ -920,13 +928,13 @@ body {
     }
     
     .footer-content h3 {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     
     .footer-navs ul li a {
         padding: 5px 4px;
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .company-logo h2 a {

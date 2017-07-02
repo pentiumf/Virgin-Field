@@ -566,7 +566,7 @@ body {
 }
 
 #homeParalaxImage {
-    background-image: url('../img/ml_pictogram.png');
+    background-image: url('http://res.cloudinary.com/hvwqgvdi9/image/upload/v1498961655/ml_pictogram_lvzd5u.png');
     background-color: #1B96BA;
     background-blend-mode: multiply;
     height: 100%; 

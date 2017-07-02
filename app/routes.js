@@ -27,10 +27,6 @@ angular.module("appRoutes", [])
         url: '/store',
         template: '<h1>This is the store page</h1>'
     });
-//    .state('noRoot', {
-//        url: '*path',
-//        template: '<h1>Route... not found</h1>'
-//    });
     $urlRouterProvider.otherwise('/');
     //$locationProvider.hashPrefix('');
     //$locationProvider.html5Mode(true);

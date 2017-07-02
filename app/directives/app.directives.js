@@ -195,7 +195,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
             var carou = elem.find('.carousel');
             carou.flickity({
               cellAlign: 'left',
-//              contain: true,
+              contain: true,
               autoPlay: true,
               draggable: false   
             });

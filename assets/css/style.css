@@ -81,7 +81,7 @@ body {
 .nav-logo-head a {
     text-decoration: none;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 10px;
     font-size: 19px;
 }
@@ -163,7 +163,6 @@ body {
     z-index: 2000;
     width: 73%;
     background: #141414;
-    opacity: 0.9;
     display: none;
 }
 
@@ -708,9 +707,31 @@ body {
         display: inline-block;
     }
     
+    #menuBar i {
+        font-size: 30px;
+    }
+    
+    .nav-search a i {
+        font-size: 24px;
+    }
+    
+    .nav-settings-menu a i {
+        font-size: 24px;
+    }
+    
+    .nav-aside-menu a i {
+        font-size: 29px;
+    }
+    
+    .nav-logo-head a {
+    font-size: 18px;
+}
+     
+    
     #searchEngine {
         left: 0;
         width: 100%;
+        top: 51px;
     }
     
     /*settings*/
@@ -858,17 +879,7 @@ body {
         margin-right: 8%;
     }
     
-    .nav-logo-head a {
-        font-size: 16px;
-    }
-    
-    .nav-search a i {
-        font-size: 24px;
-    }
-    
-    .nav-settings-menu a i {
-        font-size: 24px;
-    }
+
     
     /*home slider*/
     #sliderHeader {

@@ -9,7 +9,7 @@
     <meta name="description" content="Number one solution to Big data analytics, Internet of thongs, Artificial Interligence">
     <meta name="keywords" content="IoT, internet of things, Machine Learning, M2M, Big Data Analytics, Artificial Interligence, AI, Training"/>
     <meta name="author" content="Virgin Field">
-    <title>Virgin Field</title>
+    <title>Virgin Fields</title>
 <!--    <base href="/">-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">

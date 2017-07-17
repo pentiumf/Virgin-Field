@@ -16,45 +16,45 @@ angular.module("appDirectives", []).directive("navBar", function () {
                 });
             });
             
-            $(document).click(function(e) {
-                
-                var targetId = $(e.target).parent().attr('id');
-                
-                if ($(window).width() > 850) {
-                    if (targetId != "searchEnginePul") {
-                        $("#searchEngineClose").hide();
-                        $("#searchEnginePul").show();
-                        $("#searchEngine").hide();
-                    }
-                    $("#searchEngine").click(function(e) {
-                        e.stopPropagation();
-                    });   
-                }
-                
-                
-                if ($(window).width() < 850) {              
-                    
-                    if (targetId != "settingsMenu") {
-                        settingsClose.hide();
-                        settings.show();
-                        $(".nav-links").hide();
-
-                    }
-                    
-                    if (targetId != "searchEnginePul") {
-                        $("#searchEngineClose").hide();
-                        $("#searchEnginePul").show();
-                        $("#searchEngine").hide();
-                    }
-                    
-                    $("#searchEngine").click(function(e) {
-                        e.stopPropagation();
-                    });   
-                    
-                }
-                
-                
-            });
+//            $(document).click(function(e) {
+//                
+//                var targetId = $(e.target).parent().attr('id');
+//                
+//                if ($(window).width() > 850) {
+//                    if (targetId != "searchEnginePul") {
+//                        $("#searchEngineClose").hide();
+//                        $("#searchEnginePul").show();
+//                        $("#searchEngine").hide();
+//                    }
+//                    $("#searchEngine").click(function(e) {
+//                        e.stopPropagation();
+//                    });   
+//                }
+//                
+//                
+//                if ($(window).width() < 850) {              
+//                    
+//                    if (targetId != "settingsMenu") {
+//                        settingsClose.hide();
+//                        settings.show();
+//                        $(".nav-links").hide();
+//
+//                    }
+//                    
+//                    if (targetId != "searchEnginePul") {
+//                        $("#searchEngineClose").hide();
+//                        $("#searchEnginePul").show();
+//                        $("#searchEngine").hide();
+//                    }
+//                    
+//                    $("#searchEngine").click(function(e) {
+//                        e.stopPropagation();
+//                    });   
+//                    
+//                }
+//                
+//                
+//            });
             
         },
         templateUrl: 'templates/navbar.html'
@@ -220,6 +220,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
                     open.show();
                 });
             });
+            
         },
         templateUrl: 'templates/searchTemp.html'
     }

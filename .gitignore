@@ -1,2 +1,6 @@
 img
 vendor
+assets
+app
+node_modules
+gulpfile.js

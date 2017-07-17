@@ -11,11 +11,9 @@
     <meta name="author" content="Virgin Field">
     <title>Virgin Fields</title>
 <!--    <base href="/">-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/slideshow.css">
-    <link rel="stylesheet" href="assets/css/flickity.min.css" media="screen">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="public/css/libs.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    
 </head>
 <body ng-controller="mainController">
    <div class="overlay"></div>
@@ -26,8 +24,6 @@
    
    <side-bar></side-bar>
    
-   
-   
     
    <div id="View" class="clearfix" ui-view></div>
    
@@ -35,16 +31,9 @@
    <footer id="footer" class="clearfix" ng-include src="'templates/footer.html'">
    </footer>
     
-    <script src="assets/libs/jquery.min.js"></script>
-    <script src="assets/libs/slideshow.js"></script>
-     <script src="assets/libs/flickity.pkgd.min.js"></script>
-    <script src="assets/libs/angular.min.js"></script>
-    <script src="assets/libs/angular-ui-router.min.js"></script>
-   
-    <script src="app/services/app.services.js"></script>
-    <script src="app/controllers/app.contollers.js"></script>
-    <script src="app/directives/app.directives.js"></script>
-    <script src="app/routes.js"></script>
-    <script src="app/app.js"></script>
+    
+    
+    <script src="public/js/libs.js"></script>
+    <script src="public/js/main.js"></script>
 </body>
 </html>

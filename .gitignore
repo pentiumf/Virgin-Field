@@ -1,6 +1,5 @@
-img
 vendor
-assets
 app
+assets
 node_modules
 gulpfile.js

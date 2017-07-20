@@ -16,46 +16,6 @@ angular.module("appDirectives", []).directive("navBar", function () {
                 });
             });
             
-//            $(document).click(function(e) {
-//                
-//                var targetId = $(e.target).parent().attr('id');
-//                
-//                if ($(window).width() > 850) {
-//                    if (targetId != "searchEnginePul") {
-//                        $("#searchEngineClose").hide();
-//                        $("#searchEnginePul").show();
-//                        $("#searchEngine").hide();
-//                    }
-//                    $("#searchEngine").click(function(e) {
-//                        e.stopPropagation();
-//                    });   
-//                }
-//                
-//                
-//                if ($(window).width() < 850) {              
-//                    
-//                    if (targetId != "settingsMenu") {
-//                        settingsClose.hide();
-//                        settings.show();
-//                        $(".nav-links").hide();
-//
-//                    }
-//                    
-//                    if (targetId != "searchEnginePul") {
-//                        $("#searchEngineClose").hide();
-//                        $("#searchEnginePul").show();
-//                        $("#searchEngine").hide();
-//                    }
-//                    
-//                    $("#searchEngine").click(function(e) {
-//                        e.stopPropagation();
-//                    });   
-//                    
-//                }
-//                
-//                
-//            });
-            
         },
         templateUrl: 'templates/navbar.html'
     }
@@ -138,22 +98,6 @@ angular.module("appDirectives", []).directive("navBar", function () {
         }
         , templateUrl: 'templates/sidebar.html'
     }
-}).directive('homeSlide', function() {
-    return {
-        restrict: 'A',
-        link: function(scope, elem, attr) {
-            $(document).ready(function() {
-				var slideshow = new Slideshow({
-					id : 'homeSlide',
-					loop: true,
-                    autoplay: true,
-                    autoplay_start_delay : 4000,
-                    displayTime: 5000
-				});
-			});
-        },
-        templateUrl: 'templates/homeSlider.html'
-    }
 }).directive('homeParalax', ['$interval', function($interval) {
     return {
         restrict: 'A',
@@ -188,7 +132,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
         },
         templateUrl: 'templates/homeParalax.html'
     }
-}]).directive('trainingCarousel', function() {
+}]).directive('topAdds', function() {
     return {
         restrict: 'E',
         link: function(scope, elem, attr) {
@@ -197,32 +141,24 @@ angular.module("appDirectives", []).directive("navBar", function () {
               cellAlign: 'left',
               contain: true,
               autoPlay: true,
-              draggable: false   
+               draggable: false   
             });
         },
-        templateUrl: 'templates/trainingCarousel.html'
+        templateUrl: 'templates/topAdds.html'
     }
-}).directive('searchEngine', function() {
+}).directive('homeCarousel', function() {
     return {
-        restrict: 'E',
+        restrict: 'A',
         link: function(scope, elem, attr) {
-            
-            $('#searchEnginePul').click(function() {
-                var search = elem.find('#searchEngine');
-                var close = $("#searchEngineClose");
-                var open = $('#searchEnginePul');
-                $(this).hide();
-                search.slideDown(100);
-                close.show();
-                close.click(function() {
-                    $(this).hide();
-                    search.slideUp(100);
-                    open.show();
-                });
+            var carou = elem.find('.carousel');
+            carou.flickity({
+              cellAlign: 'left',
+              contain: true,
+              autoPlay: true,
+              draggable: true   
             });
-            
         },
-        templateUrl: 'templates/searchTemp.html'
+        templateUrl: 'templates/horizontalHomeSlider.html'
     }
 });
 

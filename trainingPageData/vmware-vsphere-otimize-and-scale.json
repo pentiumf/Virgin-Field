@@ -1,0 +1,217 @@
+{
+	"name": "VMWARE VSPHERE: OTIMIZE & SCALE",
+
+	"intro" : "Demonstrate configuration and management of ESXi networking and storage; manage changes to the vSphere environment; optimize performance of vSphere components; troubleshoot operational faults and identify root causes; use of VMware vSphere ESXi Shell and VMware vSphere Management Assistant (vMA) to manage vSpher; use of VMware vSphere Auto Deploy to provision ESXi hosts.Collin College - Continuing Education.",
+
+	"title" : "VMware vSphere: Optimize & Scale",
+
+	"description" : "For experienced VMware vSphere® personnel, teaches advanced skills for configuring and maintaining a highly available and scalable virtual infrastructure.",
+
+	"prerequisite" : "VMware vSphere: Install, Configure, Manage",
+
+	"objectives" : [
+		{"objective" : " Configure and manage ESXi networking and storage for a large and sophisticated enterprise"},
+		{"objective" : "Manage changes to the vSphere environment"},
+		{"objective" : "Optimize the performance of all vSphere components"},
+		{"objective" : "Troubleshoot operational faults and identify their root causes"},
+		{"objective" : "Use VMware vSphere® ESXiTM Shell and VMware vSphere® Management Assistant to manage vSphere"},
+		{"objective" : "Use VMware vSphere® Auto DeployTM to provision ESXi hosts"}
+	],
+
+	"textbook" : "VMware vSphere: Optimize and Scale [V6] – English Kit",
+
+	"certification" : "Prepares the student for the VMware Certified Advanced Professional – Datacenter Administration [V6] certification (VCAP6-DCA). Completion of this course also satisfies the prerequisite for taking the VMware Certified Professional 6 exam.",
+
+	"nextClassPossibilities" : "VMware vSphere: Install, Configure, Manage plus Optimize and Scale Fast Track",
+
+	"lesson" : [
+
+		{
+			"sessionHead" : "VMware Management Resources",
+
+			"session": [
+				{
+					"lab" : "Deploy and configure vSphere Management Assistant"
+				},
+				{
+					"lab" : "Configure ESXi technical support mode and SSH access"
+				},
+				{
+					"lab" : "Use the esxcli, vicfg, and vmware-cmd commands"
+				},
+				{
+					"lab" : "Review ESXi and vCenter Server log files"
+				},
+				{
+					"lab" : "Performance in a Virtualized Environment"
+				},
+				{
+					"lab" : "Review the vSphere performance troubleshooting methodology"
+				},
+				{
+					"lab" : "Explain software and hardware virtualization techniques and their effects on performance"
+				},
+				{
+					"lab" : "Use vSphere performance monitoring tools"
+				}
+
+			]
+		},
+		{
+			"sessionHead" : "Network Scalability",
+
+			"session": [
+				{
+					"lab" : "Create, configure, and manage vSphere distributed switches"
+				},
+				{
+					"lab" : "Migrate virtual machines from standard switches to distributed switches"
+				},
+				{
+					"lab" : "Explain distributed switch features such as private VLANs, VMware vSphere® Network I/O Control, port mirroring, LACP, QoS tagging, and NetFlow"
+				}
+
+			]
+		},
+		{
+			"sessionHead" : "Network Optimization",
+
+			"session": [
+				{
+					"lab" : "Explain the performance features of network adapters"
+				},
+				{
+					"lab" : "Explain the performance features of vSphere networking"
+				},
+				{
+					"lab" : "Monitor key network performance metrics"
+				},
+				{
+					"lab" : "Use vSphere Management Assistant to manage virtual network configurations"
+				},
+				{
+					"lab" : "Troubleshoot common network performance problems"
+				}
+
+			]
+		},
+		{
+			"sessionHead" : "Storage Scalability",
+
+			"session": [
+				{
+					"lab" : "Explain vSphere storage APIs for array integration and storage awareness"
+				},
+				{
+					"lab" : "Configure and assign virtual machine storage policies"
+				},
+				{
+					"lab" : "Configure VMware vSphere® Storage DRSTM and VMware vSphere® Storage I/O Control"
+				}
+
+			]
+		},
+		{
+			"sessionHead" : "Storage Optimization",
+
+			"session": [
+				{
+					"lab" : "Diagnose storage access problems"
+				},
+				{
+					"lab" : "Explain how storage protocols, VMware vSphere® VMFS configuration, load balancing, and queuing affect performance"
+				},
+				{
+					"lab" : "Configure vSphere® Flash Read CacheTM"
+				},
+				{
+					"lab" : "Monitor key storage performance metrics"
+				},
+				{
+					"lab" : "Use vSphere Management Assistant to manage virtual storage"
+				},
+				{
+					"lab" : "Troubleshoot common storage performance problems"
+				}
+			]
+		},
+		{
+			"sessionHead" : "CPU Optimization",
+
+			"session": [
+				{
+					"lab" : "Explain the CPU scheduler operation, NUMA support, and other features that affect CPU performance"
+				},
+				{
+					"lab" : "Monitor key CPU performance metrics"
+				},
+				{
+					"lab" : "Troubleshoot common CPU performance problems Memory Optimization"
+				},
+				{
+					"lab" : "Explain ballooning, memory compression, and host swapping techniques for memory reclamation when memory is overcommitted"
+				},
+				{
+					"lab" : "Monitor key memory performance metrics"
+				},
+				{
+					"lab" : "Troubleshoot common memory performance problems"
+				}
+			]
+		},
+		{
+			"sessionHead" : "Virtual Machine and Cluster Optimization",
+
+			"session": [
+				{
+					"lab" : "Describe performance guidelines for virtual machines, resource allocation settings, VMware vSphere® Distributed Resource SchedulerTM clusters, resource pools, and VMware vSphere® High Availability admission control policies"
+				},
+				{
+					"lab" : "Troubleshoot virtual machine power-on failures"
+				},
+				{
+					"lab" : "Troubleshoot vSphere cluster problems Host and Management Scalability"
+				},
+				{
+					"lab" : "Explain VMware vSphere® Distributed Power ManagementTM"
+				},
+				{
+					"lab" : "Use Host Profiles to manage ESXi configuration compliance"
+				},
+				{
+					"lab" : "Use VMware vSphere® PowerCLITM to perform vSphere administrative tasks"
+				},
+				{
+					"lab" : "Use Image Builder to create an ESXi installation image"
+				},
+				{
+					"lab" : "Use vSphere Auto Deploy to provision ESXi hosts"
+				}
+			]
+		}
+
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

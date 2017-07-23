@@ -1,0 +1,177 @@
+{
+	"name": "VMWARE VSPHERE: INSTALL, CONFIGURE, MANAGE",
+
+	"intro" : "At the end of the course, you should gain an understanding of the functionality in VMware vSphere and be able to: Install and configure ESX or ESXi, Install and configure vCenter Server components, Configure and manage ESX/ESXi networking and storage using vCenter Server, Deploy, manage, and migrate virtual machines, Manage user access to the Vmware infrastructure, Use vCenter Server to monitor resource usage, Use vCenter Server to increase scalability, Use Vmware vCenter Update Manager to apply ESX/ESXi patches, Use vCenter Server to manage higher availability and data protection.",
+
+	"title" : "VMware vSphere: Install, Configure, Manage",
+
+	"description" : "This hands-on training course explores installation, configuration, and management of VMware vSphereTM, which consists of ESX/ESXi and vCenter Server. VMware training is only available to individuals who may be a student in full or part time education, unemployed, career changers or trying to improve their knowledge and are paying for the training themselves. It is not for companies or corporate entities to obtain training for their employees – those individuals must go to a commercial VMware training offering through a VMware authorized training center.",
+
+	"prerequisite" : "System administration experience on Microsoft Windows or Linux operating",
+
+	"objectives" : [
+		{"objective" : "Install and configure ESX or ESXi"},
+		{"objective" : "Install and configure vCenter Server components"},
+		{"objective" : "Configure and manage ESX/ESXi networking and storage using vCenter Server"},
+        {"objective" : "Deploy, manage, and migrate virtual machines"},
+		{"objective" : "Manage user access to the VMware infrastructure"},
+		{"objective" : "Use vCenter Server to monitor resource usage"},
+		{"objective" : "Use vCenter Server to increase scalability"},
+		{"objective" : "Use VMware vCenter Update Manager to apply ESX/ESXi patches"},
+		{"objective" : "Use vCenter Server to manage higher availability and data protection"}
+	],
+
+	"textbook" : "VMware vSphere: Install, Configure, Manage [6.0] – English Kit",
+
+	"certification" : "Preparation for VCP certification exam.",
+
+	"nextClassPossibilities" : "VMware vSphere: Optimize & Scale",
+
+	"lesson" : [
+
+		{
+            "sessionHead" : "Session 1",
+			"session" : [
+				{
+					"lab" : "Configuring ESXi - Installing and Using VMware vCenter Server Lecture: Installing vCenter Server"
+				},
+				{
+					"lab" : "Installing vCenter Server - Using vCenter Server Lab 3: Using vCenter Server Network Standard Switches"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 2",
+			"session" : [
+				{
+					"lab" : "Standard Switches Modifying Virtual Switch Properties"
+				},
+				{
+					"lab" : "Network Design Storage Concepts IP Storage: iSCSI and NFS"
+				},
+				{
+					"lab" : " Accessing IP Storage Fibre Channel SAN Storage VMFS Datastores"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 3",
+			"session" : [
+				{
+					"lab" : "VMFS Datastores Virtual Machine Concepts Creating a Virtual Machine"
+				},
+				{
+					"lab" : "Creating a Virtual Machine Creating Templates and Clones"
+				},
+				{
+					"lab" : "Creating Templates and Clones"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 4",
+			"session" : [
+				{
+					"lab" : "VMware vCenter Converter Modifying Virtual Machines"
+				},
+				{
+					"lab" : "Modifying a Virtual Machine Managing Virtual Machines"
+				},
+				{
+					"lab" : "Managing Virtual Machines Access Control Lecture"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 5",
+			"session" : [
+				{
+					"lab" : "Access Control Resource Monitoring Lecture: Resource Controls and Resource Pools"
+				},
+				{
+					"lab" : "Resource Pools Virtual CPU and Memory Concepts Monitoring Resource Usage"
+				},
+				{
+					"lab" : "Monitoring Performance Using Alarms"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 6",
+			"session" : [
+				{
+					"lab" : "Using Alarms Data Protection"
+				},
+				{
+					"lab" : "VDR Scalability Lecture: vCenter Linked Mode Host Profiles"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 7",
+			"session" : [
+				{
+					"lab" : "Host Profiles vNetwork Distributed Switches"
+				},
+				{
+					"lab" : "Create vNetwork Distributed Switch vMotion Migration"
+				},
+				{
+					"lab" : "vMotion Migration VMware DRS Clusters"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 8",
+			"session" : [
+				{
+					"lab" : "DRS Clusters VMware DPM"
+				},
+				{
+					"lab" : "DPM High Availability"
+				},
+				{
+					"lab" : "VMware HA Managing High Availability"
+				}
+			]
+		},
+		{
+            "sessionHead" : "Session 9",
+			"session" : [
+				{
+					"lab" : "VMware HA Network Redundancy Fault Tolerance"
+				},
+				{
+					"lab" : "Configuring FT Patch Management"
+				},
+				{
+					"lab" : "Using Update Manager Installing VMware ESX and ESXi"
+				}
+			]
+		}
+
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

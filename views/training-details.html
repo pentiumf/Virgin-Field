@@ -1,0 +1,70 @@
+<div class="training-detail-wrap">
+    <div class="training-details-bg">
+        <div class="training-details-caption">
+            <h2>{{data.name}}</h2>
+            <p>{{data.title}}</p>
+            <a ui-sref="enroll">Enroll Now</a>
+        </div>
+    </div>
+    <div class="training-details">
+       
+        <div class="training-intro course">
+            <h3>What You Will Learn</h3>
+            <p>{{data.intro}}</p>
+        </div>
+        <div class="training-requirements course">
+            <h3>Course Pre-requisites</h3>
+            <p>{{data.prerequisite}}</p>
+        </div>
+        <div class="training-textbook course">
+            <h3>Textbook</h3>
+            <p>{{data.textbook}}</p>
+        </div>
+        <div class="training-certification-note course">
+            <h3>Certification Notes</h3>
+            <p>{{data.certification}}</p>
+        </div>
+        <div class="training-next-class course">
+            <h3>Next class possibilities</h3>
+            <p>{{data.nextClassPossibilities}}</p>
+        </div>
+        <div class="training-description course">
+            <h3>Course Description</h3>
+            <p>{{data.description}}</p>
+        </div>
+        <div class="training-objectives course">
+            <h3>Course Ojectives</h3>
+            <ul>
+                <li ng-repeat="objective in data.objectives"><i class="fa fa-check" aria-hidden="true"></i> {{objective.objective}}</li>
+            </ul>
+        </div>
+        
+        <div class="training-section course">
+            <h3>Course Curriculum</h3>
+            
+            <div class="course-section course" ng-repeat="lessons in data.lesson">
+                <h4 ng-click="goCats = !goCats">
+                <i class="fa fa-plus" aria-hidden="true" ng-hide="goCats"></i> 
+                <i class="fa fa-minus" aria-hidden="true" ng-show="goCats"></i> 
+                {{lessons.sessionHead}}
+                </h4>
+                <ul class="section-toggle" ng-show="goCats">
+                    <li ng-repeat="section in lessons.session"><i class="fa fa-book" aria-hidden="true"></i> {{section.lab}}</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,7 +17,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
             });
             
         },
-        templateUrl: 'templates/navbar.html'
+        templateUrl: 'directiveTemplates/navbar.html'
     }
 }).directive("sideBar", function () {
     return {
@@ -96,7 +96,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
             });
             
         }
-        , templateUrl: 'templates/sidebar.html'
+        , templateUrl: 'directiveTemplates/sidebar.html'
     }
 }).directive('homeParalax', ['$interval', function($interval) {
     return {
@@ -130,7 +130,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
               scope.stop();
             });
         },
-        templateUrl: 'templates/homeParalax.html'
+        templateUrl: 'directiveTemplates/homeParalax.html'
     }
 }]).directive('topAdds', function() {
     return {
@@ -144,7 +144,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
                draggable: false   
             });
         },
-        templateUrl: 'templates/topAdds.html'
+        templateUrl: 'directiveTemplates/topAdds.html'
     }
 }).directive('homeCarousel', function() {
     return {
@@ -158,7 +158,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
               draggable: true   
             });
         },
-        templateUrl: 'templates/horizontalHomeSlider.html'
+        templateUrl: 'directiveTemplates/horizontalHomeSlider.html'
     }
 });
 

@@ -1,1 +1,1 @@
-var app = angular.module("virginField", ["ui.router", "appController", "appDirectives", "appServices", "appRoutes",]);
+var app = angular.module("virginField", ["ui.router", "appController", "appDirectives", "appServices", "appRoutes"]);

@@ -55,7 +55,7 @@
         <div class="sidebar-head"> <a href=""><i class="{{data.icon}}"></i> {{data.name}}</a> <a href="javascript:void(0)" class="close-responsiveTab"><i class="fa fa-close"></i></a></div>
         <div class="slidebar-link-wrapper clearfix">
             <div ng-repeat="mainLink in data.links" class="sidebar-links">
-                <h4>{{mainLink.header}}</h4>
+                <h4><a href="">{{mainLink.header}}</a></h4>
                 <ul>
                     <li ng-repeat="subLink in mainLink.subLinks"><a href="#/{{subLink.route}}">{{subLink.name}}</a></li>
                 </ul>

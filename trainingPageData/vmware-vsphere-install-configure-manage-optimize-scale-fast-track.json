@@ -1,0 +1,399 @@
+{
+	"name": "VMWARE VSPHERE - INSTALL CONFIGURE MANAGE AND OPTIMIMIZE AND SCALE FAST TRACK",
+
+	"intro" : "None",
+
+	"title" : "VMware vSphere: Install, Configure, Manage plus Optimize and Scale Fast Track",
+
+	"description" : "For Administrators with foundational knowledge of virtualization along with experienced system administrators, systems engineers, and system integrators willing to work hard to achieve superior vSphere skills with minimal time away from the office.",
+
+	"prerequisite" : "System administration experience with Microsoft Windows or Linux operating system.",
+
+	"objectives" : [
+		{"objective" : "Describe the software-defined data center"},
+		{"objective" : "Deploy an ESXi host and create virtual machines"},
+		{"objective" : "Describe the VMware vCenter ServerTM architecture"},
+		{"objective" : "Deploy a vCenter Server instance or VMware vCenterTM Server ApplianceTM"},
+		{"objective" : "Use vCenter Server to manage an ESXi host"},
+		{"objective" : "Configure and manage vSphere infrastructure with VMware vSphere® ClientTM and VMware vSphere® Web Client"},
+        {"objective" : "Configure virtual networks with vSphere standard switches"},
+        {"objective" : "Use vCenter Server to manage various types of host storage: VMware vSphere® VMFS, NFS, VMware Virtual SANTM, and VMware vSphere® Virtual VolumesTM"},
+        {"objective" : "Manage virtual machines, templates, clones, and snapshots"},
+        {"objective" : "Create a vApp"},
+        {"objective" : "Describe and use the content library"},
+        {"objective" : "Migrate virtual machines with VMware vSphere® vMotion®"},
+        {"objective" : "Use VMware vSphere® Storage vMotion® to migrate virtual"},
+        {"objective" : "machine storage"},
+        {"objective" : "Monitor resource usage and manage resource pools"},
+        {"objective" : "Use VMware vRealize® Operations ManagerTM to identify and solve issues through analytics and alerts"},
+        {"objective" : "Manage VMware vSphere® High Availability and VMware"},
+        {"objective" : "vSphere® Fault T olerance"},
+        {"objective" : "Use VMware vSphere® ReplicationTM and VMware vSphere® Data ProtectionTM to replicate virtual machines and perform data recovery"},
+        {"objective" : "Use VMware vSphere® Distributed Resource SchedulerTM clusters to improve host scalability"},
+        {"objective" : "Use VMware vSphere® Update ManagerTM to apply patches and perform basic troubleshooting of ESXi hosts, virtual machines, and vCenter Server operations"},
+        {"objective" : "Manage role-based access to the VMware® virtual infrastructure"},
+        {"objective" : "Use host profiles to manage ESXi configuration compliance and large-scale deployment"},
+        {"objective" : "Use vSphere distributed switches to scale networking"},
+        {"objective" : "Use VMware vSphere ® Network I/O Control to ensure network service availability"},
+        {"objective" : "Use VMware vSphere® Storage I/O Control to ensure storage availability"},
+        {"objective" : "Use policy-driven storage and VMware vSphere® Storage DRSTM to scale storage"},
+        {"objective" : "Use VMware vSphere® ESXiTM Image Builder CLI to create an ESXi image and usethat image with VMware vSphere® Auto DeployTM to provision ESXi host"}
+	],
+
+	"textbook" : "VMware vSphere: Install, Configure, Manage [6.0] – English Kit VMware vSphere: Optimize and Scale [V6] – English Kit",
+
+	"certification" : "Completion of this course satisfies the prerequisite for taking the VMware Certified Professional 6 – Data Center Virtualization (VCP6-DCV) exam.",
+
+	"nextClassPossibilities" : "None",
+
+	"lesson" : [
+
+		{
+			"sessionHead" : "Course Introduction",
+
+			"session": [
+				{
+					"lab" : "Introductions and course logistics"
+				},
+				{
+					"lab" : "Course objectives"
+				},
+				{
+					"lab" : "References and resources"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Software-Defined Data Center",
+
+			"session": [
+				{
+					"lab" : "Introduce components of the software-defined data center"
+				},
+				{
+					"lab" : "Describe where vSphere fits into the cloud architecture"
+				},
+				{
+					"lab" : "Install and use vSphere Client"
+				},
+                {
+					"lab" : "Overview of ESXi"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Creating Virtual Machines",
+
+			"session": [
+				{
+					"lab" : "Introduce virtual machines, virtual machine hardware, and virtual machine files"
+				},
+				{
+					"lab" : "Deploy a single virtual machine"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "vCenter Server",
+
+			"session": [
+				{
+					"lab" : "Introduce the vCenter Server architecture"
+				},
+				{
+					"lab" : "Deploy and configure vCenter Server Appliance"
+				},
+                {
+					"lab" : "Use vSphere Web Client"
+				},
+                {
+					"lab" : "Manage vCenter Server inventory objects and licenses"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Configuring and Managing Virtual Networks",
+
+			"session": [
+				{
+					"lab" : "Describe, create, and manage a standard switch"
+				},
+				{
+					"lab" : "Describe and modify standard switch properties"
+				},
+                {
+					"lab" : "Describe the NIC teaming of a standard switch port group"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Configuring and Managing Virtual Storage",
+
+			"session": [
+				{
+					"lab" : "Introduce storage protocols and device names"
+				},
+				{
+					"lab" : "Configure ESXi with iSCSI and NFS storage"
+				},
+                {
+					"lab" : "Create and manage VMFS datastores"
+				},
+                {
+					"lab" : "Introduce Virtual SAN datastores"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Virtual Machine Management",
+
+			"session": [
+				{
+					"lab" : "Use templates and cloning to deploy virtual machines"
+				},
+				{
+					"lab" : "Modify and manage virtual machines"
+				},
+                {
+					"lab" : "Create and manage virtual machine snapshots"
+				},
+                {
+					"lab" : "Perform vSphere vMotion and vSphere Storage vMotion migrations "
+				},
+                {
+					"lab" : "Create VMware vSphere® vApp(s)TM"
+				},
+                {
+					"lab" : "Introduce content libraries"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Access and Authentication Control",
+
+			"session": [
+				{
+					"lab" : "Control user access through roles and permissions"
+				},
+				{
+					"lab" : "Discuss ESXi host access and authentication"
+				},
+                {
+					"lab" : "Integrate ESXi with Active Directory Memory Optimization"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Resource Management and Monitoring",
+
+			"session": [
+				{
+					"lab" : "Introduce virtual CPU and memory concepts"
+				},
+				{
+					"lab" : "Describe methods for optimizing CPU and memory usage"
+				},
+                {
+					"lab" : "Configure and manage resource pools"
+				},
+                {
+					"lab" : "Use vCenter Server performance graphs and alarms to monitorresource usage"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "vSphere HA and vSphere Fault Tolerance",
+
+			"session": [
+				{
+					"lab" : "Explain the vSphere HA architecture"
+				},
+				{
+					"lab" : "Configure and manage a vSphere HA cluster"
+				},
+                {
+					"lab" : "Use vSphere HA advanced parameters"
+				},
+                {
+					"lab" : "Introduce vSphere Fault Tolerance"
+				},
+                {
+					"lab" : "Enable vSphere Fault Tolerance on virtual machines"
+				},
+                {
+					"lab" : "Introduce VMware vSphere® ReplicationTM"
+				},
+                {
+					"lab" : "Use vSphere Data Protection to back up and restore data"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Network Scalability",
+
+			"session": [
+				{
+					"lab" : "Create, configure, and manage vSphere distributed switches, network connections, and port groups"
+				},
+				{
+					"lab" : "Discuss distributed switch features, such as private VLANs, discovery protocols, Network I/O Control, NetFlow, and port mirroring"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Host Scalability",
+
+			"session": [
+				{
+					"lab" : "Use host profiles to manage ESXi configuration compliance."
+				},
+				{
+					"lab" : "Configure and manage a vSphere DRS cluster"
+				},
+                {
+					"lab" : "Configure Enhanced vMotion Compatibility"
+				},
+                {
+					"lab" : "Use vSphere HA and vSphere DRS together"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Storage Scalability",
+
+			"session": [
+				{
+					"lab" : "Describe VMware vSphere® Storage APIs - Array Integration and VMware vSphere® API for Storage AwarenessTM"
+				},
+				{
+					"lab" : "Explain policy-driven storage"
+				},
+                {
+					"lab" : "Add a storage policy to a virtual machine storage profile"
+				},
+                {
+					"lab" : "Introduce vSphere Storage I/O Control"
+				},
+                {
+					"lab" : "Create a datastore cluster"
+				},
+                {
+					"lab" : "Configure vSphere Storage DRS"
+				}
+
+			]
+		},
+        {
+			"sessionHead" : "Patch Management",
+
+			"session": [
+				{
+					"lab" : "Use vSphere Update Manager to manage ESXi patching"
+				},
+				{
+					"lab" : "Install vSphere Update Manager and the vSphere Update Manager plug-in"
+				},
+                {
+					"lab" : "Create patch baselines"
+				},
+                {
+					"lab" : "Scan and remediate hosts"
+				}
+                
+			]
+		},
+        {
+			"sessionHead" : "VMware Management Resources",
+
+			"session": [
+				{
+					"lab" : "Describe VMware vSphere® Management Assistant"
+				},
+				{
+					"lab" : "Configure vSphere Management Assistant"
+				},
+                {
+					"lab" : "Discuss the VMware vSphere® Command-Line Interface command set"
+				},
+                {
+					"lab" : "Perform command-line operations for host management, network management, storage management, and performance monitoring"
+				}
+                
+			]
+		},
+        {
+			"sessionHead" : "Installing VMware Components",
+
+			"session": [
+				{
+					"lab" : "Describe vCenter Linked Mode to manage multiple vCenter Server inventories"
+				},
+				{
+					"lab" : "Introduce ESXi installation"
+				},
+                {
+					"lab" : "Describe boot-from-SAN requirements"
+				},
+                {
+					"lab" : "Describe vCenter Server hardware, software, and database requirements"
+				},
+                {
+					"lab" : "Install vCenter Server (Windows-based)"
+				}
+                
+			]
+		},
+        {
+			"sessionHead" : "Host and Management Scalability",
+
+			"session": [
+				{
+					"lab" : "Configure and manage VMware vSphere® Distributed Power ManagementTM • Use VMware vSphere® PowerCLITM"
+				},
+				{
+					"lab" : "Use vSphere ESXi Image Builder CLI to create an ESXi installation image"
+				},
+                {
+					"lab" : "Use vSphere Auto Deploy to deploy a stateless ESXi host"
+				}
+                
+			]
+		}
+
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

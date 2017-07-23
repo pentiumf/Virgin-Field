@@ -13,6 +13,7 @@
 <!--    <base href="/">-->
     <link rel="stylesheet" href="public/css/libs.css">
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="icon" type="image/x-icon" href="public/img/favicon.ico">
     
 </head>
 <body ng-controller="mainController">
@@ -23,15 +24,11 @@
    <search-engine></search-engine>
    
    <side-bar></side-bar>
-   
     
-   <div id="View" class="clearfix" ui-view></div>
+   <div id="View" class="clearfix" ui-view autoscroll></div>
    
-   
-   <footer id="footer" class="clearfix" ng-include src="'templates/footer.html'">
+   <footer id="footer" class="clearfix" ng-include src="'directiveTemplates/footer.html'">
    </footer>
-    
-    
     
     <script src="public/js/libs.js"></script>
     <script src="public/js/main.js"></script>

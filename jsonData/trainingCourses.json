@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "VMware vSphere: Install, Configure, Manage",
+        "route" : "vmware-vsphere-install-confing-manage",
+        "desc" : "This hands-on training course explores installation, configuration, and management of VMware vSphereTM, which consists of ESX/ESXi and vCenter Server."
+    },
+    {
+        "name" : "VMware vSphere: Install, Configure, Manage plus Optimize and Scale Fast Track",
+        "route" : "vmware-vsphere-install-configure-manage-optimize-scale-fast-track",
+        "desc" : "For Administrators with foundational knowledge of virtualization along with experienced system administrators, systems engineers, and system integrators willing to work hard to achieve superior vSphere skills with minimal time away from the office."
+    },
+    {
+        "name" : "VMware vSphere: Optimize & Scale",
+        "route" : "vmware-vsphere-otimize-and-scale",
+        "desc" : "For experienced VMware vSphere® personnel, teaches advanced skills for configuring and maintaining a highly available and scalable virtual infrastructure."
+    }
+]

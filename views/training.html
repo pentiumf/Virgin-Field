@@ -1,0 +1,27 @@
+
+  <div class="training-page-container">
+    <div class="training-page-bg">
+        <div class="training-page-caption">
+            <h1>Enroll In Our Top Training Courses</h1>
+        </div>
+    </div>
+    
+    <div class="trainings-wrapper">
+     
+      <h2>Our Top Courses</h2>
+      
+      <div class="training-container clearfix">
+          <div class="training" ng-repeat="training in data">
+              <div class="training-caption">
+                  <h3>{{training.name}}</h3>
+                  <p>{{training.desc | limitTo: 200}}..</p>
+                  <a ui-sref="trainingDetail({name: training.route})">View Course Details</a>
+              </div>
+          </div>
+      </div>
+        
+    </div>
+  </div>
+
+
+

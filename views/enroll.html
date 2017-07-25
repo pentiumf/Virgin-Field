@@ -35,13 +35,6 @@
                 <h4>Select Coutry</h4>
                 <select ng-model="customer.country" name="country" ng-options="x for x in countries" required></select>
                 
-<!--
-                <select ng-model="customer.country" name="country" required >
-                <option value="">Choose Country</option>
-                <option ng-repeat="x in countries" value="{{x}}">{{x}}</option>
-                </select>
--->
-                
                 <span class="incomplete" ng-show="enrollForm.country.$invalid && !enrollForm.country.$pristine"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Country is required</span>
                 
                 <span class="complete" ng-show="enrollForm.country.$valid"><i class="fa fa-check-circle" aria-hidden="true"></i> Complete</span>
@@ -62,22 +55,13 @@
                 <span class="complete" ng-show="enrollForm.contact.$valid"><i class="fa fa-check-circle" aria-hidden="true"></i> Complete</span>
             </div>
             <div class="field-wrap">
-                <button type="submit" ng-disabled="enrollForm.$invalid"> <span ng-show="enrollForm.$valid" ng-hide="enrollForm.$invalid">Submit Resquest</span> <span ng-show"enrollForm.$invalid" ng-hide="enrollForm.$valid">Form Not Complete</span></button>
+                <button type="submit" ng-disabled="enrollForm.$invalid"> <span ng-show="enrollForm.$valid" ng-hide="enrollForm.$invalid">Submit Resquest</span> <span ng-show"enrollForm.$invalid" ng-hide="enrollForm.$valid">Fill Out Form</span></button>
             </div>
             
             
         </form>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 

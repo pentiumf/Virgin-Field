@@ -6,6 +6,14 @@ angular.module("appRoutes", [])
         url: '/',
         templateUrl: 'views/home.html',
         controller: 'homeController'
+    }).state('solutions', {
+        url: '/solutions',
+        templateUrl: 'views/solutions.html',
+        controller: 'solutionsController'
+    }).state('solutionnsDetail', {
+        url: '/solutions/:name',
+        templateUrl: 'views/solutionsDetails.html',
+        controller: 'solutionsDetailsController'
     }).state('training', {
         url: '/training',
         templateUrl: 'views/training.html',

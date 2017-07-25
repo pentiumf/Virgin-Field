@@ -9,7 +9,7 @@ angular.module("appServices", [])
         }).then(function(response){
             cb(response.data);
         }, function(response){
-            $location.url('/404');
+            //$location.url('/404');
         });
     }
     
@@ -46,12 +46,38 @@ angular.module("appServices", [])
         }).then(function(response){
             cb(response.data);
         }, function(response){
-            $location.url('/404');
+            //$location.url('/404');
         });
         
+    }
+    
+    homeServices.getSolutionsDetail = function(a , cb) {
+        $http({
+            url: 'jsonData/solutionsData/'+a+'.json',
+            method: 'GET',
+        }).then(function(response){
+            cb(response.data);
+        }, function(response){
+            $location.url('/404');
+        });
     }
     
     
     return homeServices;
     
 }]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

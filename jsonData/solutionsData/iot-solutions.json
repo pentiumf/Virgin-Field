@@ -1,0 +1,74 @@
+{
+    "title" : "Virgin Fields Internet Of Things Solutions",
+    "header" : "Internet Of Things",
+    "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500951234/81-IoT_ry07tw.png",
+    "overview" : [
+        {
+            "chapter" : "We provide a complete end-to-end IoT solutions for our clients spanning from choice of device sensors, connectivity models, multi-cloud deployment leveraging IoT Platform services, Big Data Analytics Services and Cloud services of your choice. Our multi-cloud solutions are built within the framework of the IoT reference architecture with tight integration into Big Data Analytics and powerful visualization and tighter integration into the cloud service provider of your choice."
+        },
+        {
+            "chapter" : "We build an end-to-end solution for clients with any kind of device hardware. Evaluate your IoT solution at scale using the capabilities of our Intelligent IoT Operations Center Platform with a quick time to deploy allowing you to begin prototyping with virtual devices and physical devices when ready for production deployment. Our solutions will allow your devices to connect securely to the cloud using the protocol of your choice, provide real-time, intelligent analytics, evaluate your data and deliver the result to the end-user on any interface the client prefers."
+        },
+        {
+            "chapter" : "Our solutions are truly multi-cloud and protocol agnostic. Regardless of the device type and protocol understood by your device we are able to translate protocols from proprietary to standard protocols understood by Cloud Service Provider platforms."
+        },
+        {
+            "chapter" : "Device data can be stored in a format and storage of your chosen. We also are able to transform your data via Machine Learning with multiple algorithms to perform big data analytics providing actionable intelligence and insight into your data with powerful visualization."
+        }
+    ],
+    "verticals" : [
+        {
+            "vertical" : "Industrial Asset Management: Our Asset Management solutions is the most smart and easy to deploy solution supporting a range of device sensors collecting and sending telemetry data to the IoT Platform of your choice in the cloud and on-premises. We provide clients with a single pane of glass and power visualization customizable dashboards with integration with Microsoft Power BI solution."
+        },
+        {
+            "vertical" : "Smart Building & Smart Cities: We provide our clients with tighter and secure integration of smart home and security devices and smart building technologies enabling intelligent and remote access and control of the building. You can define building temperature, humidity threshold for alerts and suspicious activity allowing the client to monitor environmental conditions, and develop a daily schedule to optimizes building resources; all through an intuitive user interface."
+        },
+        {
+            "vertical" : "Smart Grid"
+        },
+        {
+            "vertical" : "Smart Solar Power: Proactive monitoring, maintenance, and optimization of any sized solar application. With integrated partner analytics we leverage predictive analytics to generate crucial insights for industrial and consumer applications alike. With a single pane of glass you can easily track everything you need to know about your solar energy system. Automatically schedule your maintenance window at exactly the right time; not before it's needed and not after it’s broken and costing you money. Optimize power output to decrease your energy bill and help the environment."
+        },
+        {
+            "vertical" : "Predictive Maintenance"
+        },
+        {
+            "vertical" : "Connected Factory"
+        },
+        {
+            "vertical" : "Connected Health"
+        },
+        {
+            "vertical" : "Connected ATMs"
+        },
+        {
+            "vertical" : "Connected Retail Stores"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,67 +7,47 @@
         "links" : [
             {
                 "header": "IoT Solutions",
-                "subLinks": [
-                    {
-                        "name" : "Iot Solutions",
-                        "route" : "solution-link"
-                    },
-                    {
-                        "name" : "Iot Solutions",
-                        "route" : "solution-link"
-                    },
-                    {
-                        "name" : "Iot Solutions",
-                        "route" : "solution-link"
-                    },
-                    {
-                        "name" : "Iot Solutions",
-                        "route" : "solution-link"
-                    }
-                ]
+                "route" : "solutions/iot-solutions",
+                "suDesc": "We provide a complete end-to-end IoT solutions for our clients spanning from choice of device sensors, connectivity models, IoT Platform services and Cloud services of your choice.",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922519/iot_i9aykz.jpg"
             },
             {
                 "header": "Big Data Analytics",
-                "subLinks": [
-                    {
-                        "name" : "BDA Solutions",
-                        "route" : "bda-link"
-                    },
-                    {
-                        "name" : "BDA Solutions",
-                        "route" : "bda-link"
-                    },
-                    {
-                        "name" : "BDA Solutions",
-                        "route" : "bda-link"
-                    },
-                    {
-                        "name" : "BDA Solutions",
-                        "route" : "bda-link"
-                    }
-                ]
+                "route" : "solutions/big-data-analytics",
+                "suDesc": " We also are able to transform your data via Machine Learning with multiple algorithms to perform big data analytics providing actionable intelligence and insight into your data with powerful visualization.",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922500/bibdata_ihijao.png"
             },
             {
-                "header": "Node.JS",
-                "subLinks": [
-                    {
-                        "name" : "Node.JS Solutions",
-                        "route" : "nodeJs-link"
-                    },
-                    {
-                        "name" : "Node.JS Solutions",
-                        "route" : "nodeJs-link"
-                    },
-                    {
-                        "name" : "Node.JS Solutions",
-                        "route" : "nodeJs-link"
-                    },
-                    {
-                        "name" : "Node.JS Solutions",
-                        "route" : "nodeJs-link"
-                    }
-                ]
+                "header": "Digital Transformation",
+                "route" : "solutions/digital-tranformation",
+                "suDesc": "We Provide all kinds of digital transformation solution that make your life easy and save you lots of money.",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922516/digital-tranformation_mnj1yt.jpg"
+            },
+            {
+                "header": "Architectural Consulting",
+                "route" : "solutions/architectural-consulting",
+                "suDesc": "We Provide Various Consulting solutions for our clients.",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922526/arc-consult_xdbi3m.jpg"
+            },
+            {
+                "header": "Training and Education",
+                "route" : "solutions/training-education",
+                "suDesc": "We provide training and educate people in many fields. You can enroll in any of our trainng courses of your coice",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500923171/training_dlyffv.png"
+            },
+            {
+                "header": "In house and Outsourced Development",
+                "route" : "solutions/in-house-outsourced-dev",
+                "suDesc": "",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922500/outsourcing_kaqnhb.jpg"
+            },
+            {
+                "header": "Agile DevOps Co-development",
+                "route" : "solutions/agile-devops",
+                "suDesc": "",
+                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922516/agil-dev_jtvopj.jpg"
             }
+            
         ]
     },
     
@@ -78,88 +58,14 @@
         "icon" : "fa fa-cloud",
         "links" : [
             {
-                "header": "Cloud Services",
-                "subLinks": [
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    }
-                ]
+                "header": "Microsoft Azure",
+                "route" : "cloud-services/microsoft-azure",
+                "suDesc": "With oue partnership with microsoft we offer the best microsoft cloud services"
             },
             {
-                "header": "Cloud Services",
-                "subLinks": [
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Cloud Services",
-                "subLinks": [
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Cloud Services",
-                "subLinks": [
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Cloud service",
-                        "route" : "route-link"
-                    }
-                ]
+                "header": "AWS Servives",
+                "route" : "cloud-services/aws-services",
+                "suDesc": "Get the best of Amazone Cloud Services for your busineess"
             }
         ]
     },
@@ -171,88 +77,9 @@
         "icon" : "fa fa-product-hunt",
         "links" : [
             {
-                "header": "Products Name",
-                "subLinks": [
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Products Name",
-                "subLinks": [
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Products Name",
-                "subLinks": [
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Products Name",
-                "subLinks": [
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "Product example",
-                        "route" : "route-link"
-                    }
-                ]
+                "header": "IoT Products",
+                "route" : "products/iot-products",
+                "suDesc": "Explore The Wide Ranges Of Our Products."
             }
         ]
     },
@@ -265,87 +92,8 @@
         "links" : [
             {
                 "header": "Company Information",
-                "subLinks": [
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Company Information",
-                "subLinks": [
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Company Information",
-                "subLinks": [
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Company Information",
-                "subLinks": [
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "company info",
-                        "route" : "route-link"
-                    }
-                ]
+                "route" : "company/company-info",
+                "suDesc": "Learn more about us and our Executives and Staffs"
             }
         ]
     },
@@ -358,87 +106,8 @@
         "links" : [
             {
                 "header": "Support Information",
-                "subLinks": [
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Support Information",
-                "subLinks": [
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Support Information",
-                "subLinks": [
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    }
-                ]
-            },
-            {
-                "header": "Support Information",
-                "subLinks": [
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    },
-                    {
-                        "name" : "support info",
-                        "route" : "route-link"
-                    }
-                ]
+                "route" : "support/support-info",
+                "suDesc": "Need Help With Any Thing..."
             }
         ]
     }

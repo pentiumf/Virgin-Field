@@ -1,0 +1,43 @@
+ <div class="solutions-details-wrapper">
+   
+    <div class="solutions-details-header">
+        <h2>{{data.title}}</h2>
+        <a href="#/contact">Contact Us</a>
+    </div>
+    
+    <div class="solutions-details-body">
+      
+        <div class="solutions-bg" style="background-image: url({{data.img}})">
+            <h2>{{data.header}}</h2>
+        </div>
+        
+        <div class="solution-content-wrap solEmpty" ng-if="data.overview.length <= 0">
+            <h1>Content Coming Soon</h1>
+        </div>
+       
+        <div class="solution-content-wrap overview" ng-if="data.overview.length > 0">
+           
+            <div class="solution-content-header">
+                <h3>Overview</h3>
+            </div>
+            
+            <div class="solution-content-writeup" ng-repeat="content in data.overview">
+                <p>{{content.chapter}}</p>
+            </div>
+            
+        </div>
+        
+        <div class="solution-content-wrap verticals" ng-if="data.verticals.length > 0">
+            <div class="solution-content-header">
+                <h3>Verticals</h3>
+            </div>
+           
+            <div class="solution-content-writeup">
+                <ul>
+                    <li ng-repeat="vet in data.verticals"><i class="fa fa-check" aria-hidden="true"></i> {{vet.vertical}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>

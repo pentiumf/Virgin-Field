@@ -1,5 +1,6 @@
 
-  <div class="training-page-container">
+<div class="training-page-container">
+   
     <div class="training-page-bg">
         <div class="training-page-caption">
             <h1>Enroll In Our Top Training Courses</h1>
@@ -10,7 +11,11 @@
      
       <h2>Our Top Courses</h2>
       
-      <div class="training-container clearfix">
+      <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+          
+      </div>
+      
+      <div class="training-container clearfix" ng-show="loader==false">
           <div class="training" ng-repeat="training in data">
               <div class="training-caption">
                   <h3>{{training.name}}</h3>
@@ -18,9 +23,10 @@
                   <a ui-sref="trainingDetail({name: training.route})">View Course Details</a>
               </div>
           </div>
-      </div>
+       </div>
         
     </div>
+    
   </div>
 
 

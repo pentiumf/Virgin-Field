@@ -1,4 +1,9 @@
-<div class="training-detail-wrap">
+
+<div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+</div>   
+
+   
+<div class="training-detail-wrap" ng-show="loader==false">
     <div class="training-details-bg">
         <div class="training-details-caption">
             <h2>{{data.name}}</h2>

@@ -27,6 +27,10 @@ angular.module("appRoutes", [])
         url: '/enroll',
         templateUrl: 'views/enroll.html',
         controller: 'enrollController'
+    }).state('contact', {
+        url: '/contact',
+        templateUrl: 'views/contact.html',
+        controller: 'contactController'
     }).state('404', {
         url: '/404',
         templateUrl: 'views/404.html'

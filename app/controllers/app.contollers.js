@@ -10,35 +10,42 @@ angular.module("appController", [])
     
 }])
 .controller('solutionsController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    $scope.loader = true;
     
     homeFactory.getSideBarData(function(result) {
         $scope.data = result;
         $scope.solutionData = $scope.data[0].links;
+        $scope.loader = false;
     });
     
 }])
 .controller('solutionsDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
-    
+    $scope.loader = true;
     var param = $stateParams.name;
     
     homeFactory.getSolutionsDetail(param, function(result) {
        $scope.data = result;
+        $scope.loader = false;
     });
     
 }])
 .controller('trainingController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    $scope.loader = true;
     
     homeFactory.getTrainingCourses(function(result) {
-       $scope.data = result;    
+       $scope.data = result;
+       $scope.loader = false;
+            
     });
     
 }])
 .controller('trainingDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
-    
+    $scope.loader = true;
     var name = $stateParams.name;
     
     homeFactory.getTrainingData(name, function(result) {
        $scope.data = result;
+       $scope.loader = false;
     });
     
 }])
@@ -51,6 +58,11 @@ angular.module("appController", [])
     $scope.sendRequest = function() {
         alert('bik')
     }
+    
+}])
+.controller('contactController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    
+    console.log("contactus....")
     
 }]);
 

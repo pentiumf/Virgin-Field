@@ -1,4 +1,8 @@
- <div class="solutions-details-wrapper">
+ <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+ </div> 
+  
+  
+<div class="solutions-details-wrapper" ng-show="loader==false">
    
     <div class="solutions-details-header">
         <h2>{{data.title}}</h2>

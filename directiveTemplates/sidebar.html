@@ -52,11 +52,15 @@
 <div ng-repeat="data in sideBarData" id="{{data.id}}" class="slide-bar-wrapper animated slideInLeft">
    
    <div class="slide-bar-content">
-        <div class="sidebar-head"> <a href="#/{{data.route}}"><i class="{{data.icon}}"></i> {{data.name}}</a> <a href="javascript:void(0)" class="close-responsiveTab"><i class="fa fa-close"></i></a></div>
+       
+        <div class="sidebar-head"> 
+        <a href="#/{{data.route}}" data-id="{{data.id}}" class="sidebar-head-link"><i class="{{data.icon}}"></i> {{data.name}}</a> <a href="javascript:void(0)" class="close-responsiveTab"><i class="fa fa-close"></i></a>
+        </div>
+        
         <div class="slidebar-link-wrapper clearfix">
             <div ng-repeat="mainLink in data.links" class="sidebar-links">
-                <h4><a href="#/{{mainLink.route}}">{{mainLink.header}}</a></h4>
-                <a href="#/{{mainLink.route}}">
+                <a href="#/{{mainLink.route}}" data-id="{{data.id}}">
+                    <h4>{{mainLink.header}}</h4>
                     <p>{{mainLink.suDesc}}</p> 
                     <span>learn more >></span>
                 </a>
@@ -66,7 +70,7 @@
     
     
     <div class="view-all">
-        <a href="#/{{data.route}}">View all {{data.name}}</a>
+        <a href="#/{{data.route}}" data-id="{{data.id}}">View all {{data.name}}</a>
     </div>
 </div>
 

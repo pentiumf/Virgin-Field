@@ -691,6 +691,81 @@ body {
       .solutions-details-wrapper .solutions-details-body .solution-content-wrap .solution-content-writeup ul li i {
         color: #2EA9CD; }
 
+#contactus-wrapper {
+  padding: 40px; }
+  #contactus-wrapper h4 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px; }
+  #contactus-wrapper #contactus-header {
+    text-align: center; }
+    #contactus-wrapper #contactus-header h2 {
+      font-size: 40px;
+      margin-bottom: 0;
+      border-bottom: 1px dotted #ccc;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+      font-weight: 400; }
+  #contactus-wrapper #contactus-left {
+    width: 35%;
+    float: left;
+    margin-left: 5%; }
+    #contactus-wrapper #contactus-left .contactus_form_grup {
+      margin-bottom: 10px; }
+      #contactus-wrapper #contactus-left .contactus_form_grup .contactus_input {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+        border-radius: 4px;
+        outline: none;
+        margin-top: 4px; }
+        #contactus-wrapper #contactus-left .contactus_form_grup .contactus_input:focus {
+          box-shadow: 1px 1px 10px 5px rgba(160, 160, 160, 0.53); }
+      #contactus-wrapper #contactus-left .contactus_form_grup .contactus_error {
+        font-size: 13px;
+        color: #000; }
+      #contactus-wrapper #contactus-left .contactus_form_grup #contactus_mgs {
+        width: 100%;
+        height: 200px;
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+        border-radius: 4px;
+        font-size: 15px;
+        outline: none;
+        margin-top: 3px;
+        font-family: "Titillium Web"; }
+      #contactus-wrapper #contactus-left .contactus_form_grup #contact_us_submit {
+        width: 110px;
+        height: 35px;
+        border-radius: 3px;
+        line-height: 35px;
+        font-size: 15px;
+        outline: none;
+        border: none;
+        background-color: #2EA9CD;
+        color: #fff;
+        margin: 10px 0; }
+        #contactus-wrapper #contactus-left .contactus_form_grup #contact_us_submit:hover {
+          background-color: #1B96BA; }
+  #contactus-wrapper #contactus-right {
+    width: 40%;
+    float: left;
+    margin-left: 15%;
+    text-align: left; }
+    #contactus-wrapper #contactus-right #contactus_call p {
+      margin: 5px 0; }
+      #contactus-wrapper #contactus-right #contactus_call p i {
+        font-size: 35px;
+        padding-right: 10px; }
+      #contactus-wrapper #contactus-right #contactus_call p a {
+        text-decoration: none;
+        color: #2EA9CD;
+        font-size: 16px;
+        vertical-align: 6px; }
+
 @media screen and (max-width: 1025px) {
   .sidebar-container {
     width: 12%; }
@@ -801,7 +876,81 @@ body {
   #footer {
     padding-left: 0; }
     #footer .footer-wrapper .footer-content {
-      width: 50%; } }
+      width: 50%; }
+
+  #contactus-wrapper {
+    padding: 20px 10px; }
+    #contactus-wrapper h4 {
+      font-size: 25px; }
+    #contactus-wrapper #contactus-header h2 {
+      font-size: 30px; }
+    #contactus-wrapper #contactus-left {
+      width: 40%; }
+    #contactus-wrapper #contactus-right {
+      margin-left: 10%;
+      width: 35%; }
+
+  .training-page-container .training-page-bg {
+    height: 360px; }
+    .training-page-container .training-page-bg .training-page-caption h1 {
+      font-size: 30px;
+      line-height: 360px; }
+  .training-page-container .trainings-wrapper .training-container .training .training-caption {
+    padding: 20px; }
+    .training-page-container .trainings-wrapper .training-container .training .training-caption h3 {
+      font-size: 16px; }
+    .training-page-container .trainings-wrapper .training-container .training .training-caption p {
+      font-size: 13px; }
+    .training-page-container .trainings-wrapper .training-container .training .training-caption a {
+      font-size: 13px;
+      height: 35px;
+      line-height: 35px; }
+
+  .training-detail-wrap .training-details-bg .training-details-caption h2 {
+    font-size: 16px; }
+  .training-detail-wrap .training-details-bg .training-details-caption a {
+    width: 130px; }
+  .training-detail-wrap .training-details {
+    padding: 110px 20px 20px 20px; }
+    .training-detail-wrap .training-details h3 {
+      font-size: 18px; }
+
+  .enroll-cousrse-wrapper {
+    width: 60%; }
+    .enroll-cousrse-wrapper .enroll-course-header a img {
+      width: 90px;
+      height: 50px; }
+    .enroll-cousrse-wrapper .enroll-course-header a span {
+      font-size: 20px; }
+    .enroll-cousrse-wrapper .enroll-course-header h2 {
+      font-size: 20px; }
+    .enroll-cousrse-wrapper .enroll-course-header p {
+      font-size: 14px; }
+
+  .solutions-page-wrapper {
+    padding: 20px; }
+    .solutions-page-wrapper .solutions-page-header h2 {
+      font-size: 20px; }
+    .solutions-page-wrapper .solutions-page-header p {
+      font-size: 13px; }
+    .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category {
+      width: 48%;
+      height: 270px; }
+      .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category figcaption h3 {
+        font-size: 20px; }
+      .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category figcaption p {
+        font-size: 13px; }
+
+  .solutions-details-wrapper .solutions-details-header h2 {
+    font-size: 16px; }
+  .solutions-details-wrapper .solutions-details-body {
+    padding: 101px 0 0 0; }
+    .solutions-details-wrapper .solutions-details-body .solutions-bg {
+      height: 400px; }
+      .solutions-details-wrapper .solutions-details-body .solutions-bg h2 {
+        line-height: 400px;
+        font-size: 40px;
+        font-weight: 600; } }
 @media screen and (max-width: 550px) {
   .slide-bar-wrapper .slide-bar-content .sidebar-head a {
     font-size: 16px; }
@@ -880,6 +1029,103 @@ body {
     #footer .footer-wrapper .footer-bottom h2 a {
       font-size: 14px; }
     #footer .footer-wrapper .footer-bottom p {
-      font-size: 11px; } }
+      font-size: 11px; }
+
+  #contactus-wrapper h4 {
+    font-size: 20px; }
+  #contactus-wrapper #contactus-header h2 {
+    font-size: 20px; }
+  #contactus-wrapper #contactus-left {
+    width: 100%;
+    float: none;
+    margin: 0;
+    margin-bottom: 5%; }
+  #contactus-wrapper #contactus-right {
+    width: 100%;
+    margin: 0; }
+    #contactus-wrapper #contactus-right #contactus_call p i {
+      font-size: 30px; }
+    #contactus-wrapper #contactus-right #contactus_call p a {
+      font-size: 15px; }
+
+  .training-page-container .training-page-bg {
+    height: 300px; }
+    .training-page-container .training-page-bg .training-page-caption h1 {
+      font-size: 16px;
+      line-height: 300px; }
+  .training-page-container .trainings-wrapper h2 {
+    font-size: 16px; }
+  .training-page-container .trainings-wrapper .training-container .training {
+    float: none;
+    width: 96%;
+    margin: 2%; }
+    .training-page-container .trainings-wrapper .training-container .training .training-caption {
+      padding: 20px; }
+      .training-page-container .trainings-wrapper .training-container .training .training-caption h3 {
+        font-size: 16px; }
+      .training-page-container .trainings-wrapper .training-container .training .training-caption p {
+        font-size: 13px; }
+      .training-page-container .trainings-wrapper .training-container .training .training-caption a {
+        font-size: 13px;
+        height: 35px;
+        line-height: 35px; }
+
+  .training-detail-wrap .training-details-bg .training-details-caption h2 {
+    font-size: 14px; }
+  .training-detail-wrap .training-details-bg .training-details-caption a {
+    width: 110px;
+    font-size: 13px;
+    height: 32px;
+    line-height: 32px; }
+  .training-detail-wrap .training-details {
+    padding: 100px 10px 10px 10px; }
+    .training-detail-wrap .training-details h3 {
+      font-size: 16px; }
+    .training-detail-wrap .training-details p {
+      font-size: 14px; }
+
+  .enroll-cousrse-wrapper {
+    width: 90%; }
+    .enroll-cousrse-wrapper .enroll-course-header a img {
+      width: 70px;
+      height: 40px; }
+    .enroll-cousrse-wrapper .enroll-course-header a span {
+      font-size: 18px; }
+    .enroll-cousrse-wrapper .enroll-course-header h2 {
+      font-size: 18px; }
+    .enroll-cousrse-wrapper .enroll-course-header p {
+      font-size: 13px; }
+
+  .solutions-page-wrapper {
+    padding: 10px; }
+    .solutions-page-wrapper .solutions-page-header h2 {
+      font-size: 18px; }
+    .solutions-page-wrapper .solutions-page-header p {
+      font-size: 12px; }
+    .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category {
+      width: 98%;
+      height: 250px;
+      float: none; }
+      .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category figcaption h3 {
+        font-size: 18px; }
+      .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category figcaption p {
+        font-size: 12px; }
+
+  .solutions-details-wrapper .solutions-details-header h2 {
+    font-size: 16px; }
+  .solutions-details-wrapper .solutions-details-header a {
+    width: 90px;
+    font-size: 12px; }
+  .solutions-details-wrapper .solutions-details-body {
+    padding: 101px 0 0 0; }
+    .solutions-details-wrapper .solutions-details-body .solutions-bg {
+      height: 350px; }
+      .solutions-details-wrapper .solutions-details-body .solutions-bg h2 {
+        line-height: 350px;
+        font-size: 24px; }
+    .solutions-details-wrapper .solutions-details-body .overview {
+      padding: 20px 20px; }
+    .solutions-details-wrapper .solutions-details-body .verticals {
+      padding: 0 20px; } }
 
 /*# sourceMappingURL=style.css.map */

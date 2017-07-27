@@ -5,7 +5,10 @@
     </div>
     <div class="solutions-page-body">
         
-        <div class="solutions-category-wrapper clearfix">
+        <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+        </div> 
+        
+        <div class="solutions-category-wrapper clearfix" ng-show="loader==false">
                
                
                 <figure ng-repeat="solution in solutionData" class="solutions-category">

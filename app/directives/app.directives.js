@@ -95,6 +95,63 @@ angular.module("appDirectives", []).directive("navBar", function () {
                 });
             });
             
+            //Responsive Click
+            $('body').on("click", ".sidebar-head-link", function() {
+                var id = $(this).attr('data-id');
+                
+                if ($(window).width() >= 800) {
+                    $("#"+id).removeClass("current");
+                    $(".close-slideBar").removeClass("current2");
+                    $(".slide-link").show();
+                }
+                
+                if ($(window).width() <= 800) {
+                    $("#"+id).removeClass("current3");
+                    $(".sidebar-container").hide();
+                    $("#menuBarClose").hide();
+                    $("#menuBar").show();
+                }
+                
+            });
+            
+            $('body').on("click", ".view-all a", function() {
+                var id = $(this).attr('data-id');
+                
+                if ($(window).width() >= 800) {
+                    $("#"+id).removeClass("current");
+                    $(".close-slideBar").removeClass("current2");
+                    $(".slide-link").show();
+                }
+                
+                if ($(window).width() <= 800) {
+                    $("#"+id).removeClass("current3");
+                    $(".sidebar-container").hide();
+                    $("#menuBarClose").hide();
+                    $("#menuBar").show();
+                }
+                
+            });
+            
+            
+            $('body').on("click", ".sidebar-links a", function() {
+                var id = $(this).attr('data-id');
+                
+                if ($(window).width() >= 800) {
+                    $("#"+id).removeClass("current");
+                    $(".close-slideBar").removeClass("current2");
+                    $(".slide-link").show();
+                }
+                
+                if ($(window).width() <= 800) {
+                    $("#"+id).removeClass("current3");
+                    $(".sidebar-container").hide();
+                    $("#menuBarClose").hide();
+                    $("#menuBar").show();
+                }
+                
+            });
+
+            
         }
         , templateUrl: 'directiveTemplates/sidebar.html'
     }

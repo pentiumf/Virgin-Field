@@ -11,10 +11,6 @@
      
       <h2>Our Top Courses</h2>
       
-      <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
-          
-      </div>
-      
       <div class="training-container clearfix" ng-show="loader==false">
           <div class="training" ng-repeat="training in data">
               <div class="training-caption">
@@ -27,6 +23,10 @@
         
     </div>
     
+  </div>
+  
+  
+  <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
   </div>
 
 

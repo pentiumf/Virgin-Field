@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900);
 * {
   margin: 0;
@@ -293,6 +294,70 @@ body {
       font-weight: 400;
       font-size: 14px; }
 
+.loader {
+  position: relative;
+  margin: 100px 0; }
+
+@keyframes _spinner {
+  to {
+    transform: rotate(-1440deg); } }
+/**
+ * 1. Once the animation has run in one direction, go back again.
+ */
+.c-spinner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  /**
+   * Dots are just little white circles. They start life in the very centre of
+   * their host spinner[1].
+   */
+  animation: 2s _spinner ease-in-out infinite alternate;
+  /* [1] */ }
+  .c-spinner > span {
+    position: absolute;
+    /* [1] */
+    top: 50%;
+    /* [1] */
+    left: 50%;
+    /* [1] */
+    margin-top: -10px;
+    /* [1] */
+    margin-left: -10px;
+    /* [1] */
+    width: 20px;
+    height: 20px;
+    background-color: #2EA9CD;
+    border-radius: 100%;
+    /**
+     * Distribute dots by moving them to the edge of their parent circle and
+     * rotating them by the correct proportion.
+     */
+    /**
+     * Distribute dots by moving them to the edge of their parent circle and
+     * rotating them by the correct proportion.
+     */
+    /**
+     * Distribute dots by moving them to the edge of their parent circle and
+     * rotating them by the correct proportion.
+     */ }
+    .c-spinner > span:nth-of-type(1) {
+      transform: rotate(0deg) translate(30px); }
+    .c-spinner > span:nth-of-type(2) {
+      transform: rotate(120deg) translate(30px); }
+    .c-spinner > span:nth-of-type(3) {
+      transform: rotate(240deg) translate(30px); }
+
+/**
+ * Visually hide the ‘Loading…’ text.
+ */
+.c-spinner__text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px); }
+
 #homeCarousel .carousel {
   background: #EEE; }
   #homeCarousel .carousel .carousel-cell {
@@ -471,8 +536,6 @@ body {
     .training-detail-wrap .training-details-bg .training-details-caption h2 {
       font-size: 20px;
       font-weight: 600; }
-    .training-detail-wrap .training-details-bg .training-details-caption p {
-      display: none; }
     .training-detail-wrap .training-details-bg .training-details-caption a {
       text-decoration: none;
       text-align: center;
@@ -494,6 +557,8 @@ body {
     font-weight: 600; }
   .training-detail-wrap .training-details p {
     font-weight: 300; }
+  .training-detail-wrap .training-details .training-header {
+    display: none; }
   .training-detail-wrap .training-details .course {
     margin: 20px 0; }
   .training-detail-wrap .training-details .training-intro {
@@ -941,8 +1006,10 @@ body {
       .solutions-page-wrapper .solutions-page-body .solutions-category-wrapper .solutions-category figcaption p {
         font-size: 13px; }
 
-  .solutions-details-wrapper .solutions-details-header h2 {
-    font-size: 16px; }
+  .solutions-details-wrapper .solutions-details-header {
+    padding: 20x 40px; }
+    .solutions-details-wrapper .solutions-details-header h2 {
+      font-size: 16px; }
   .solutions-details-wrapper .solutions-details-body {
     padding: 101px 0 0 0; }
     .solutions-details-wrapper .solutions-details-body .solutions-bg {
@@ -1070,15 +1137,24 @@ body {
         height: 35px;
         line-height: 35px; }
 
-  .training-detail-wrap .training-details-bg .training-details-caption h2 {
-    font-size: 14px; }
-  .training-detail-wrap .training-details-bg .training-details-caption a {
-    width: 110px;
-    font-size: 13px;
-    height: 32px;
-    line-height: 32px; }
+  .training-detail-wrap .training-details-bg {
+    min-height: 70px; }
+    .training-detail-wrap .training-details-bg .training-details-caption {
+      padding: 10px; }
+      .training-detail-wrap .training-details-bg .training-details-caption h2 {
+        display: none; }
+      .training-detail-wrap .training-details-bg .training-details-caption a {
+        width: 110px;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        margin: 5px; }
   .training-detail-wrap .training-details {
     padding: 100px 10px 10px 10px; }
+    .training-detail-wrap .training-details .training-header {
+      display: block; }
+      .training-detail-wrap .training-details .training-header h2 {
+        font-size: 14px; }
     .training-detail-wrap .training-details h3 {
       font-size: 16px; }
     .training-detail-wrap .training-details p {
@@ -1112,12 +1188,13 @@ body {
         font-size: 12px; }
 
   .solutions-details-wrapper .solutions-details-header h2 {
-    font-size: 16px; }
+    font-size: 16px;
+    display: none; }
   .solutions-details-wrapper .solutions-details-header a {
     width: 90px;
     font-size: 12px; }
   .solutions-details-wrapper .solutions-details-body {
-    padding: 101px 0 0 0; }
+    padding: 80px 0 0 0; }
     .solutions-details-wrapper .solutions-details-body .solutions-bg {
       height: 350px; }
       .solutions-details-wrapper .solutions-details-body .solutions-bg h2 {

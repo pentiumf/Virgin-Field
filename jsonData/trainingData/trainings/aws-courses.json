@@ -1,0 +1,27 @@
+
+{
+    "name" : "Amazone Web Services Training Courses",
+    "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501369755/cloud-computing_pv26om.png",
+    "courses" : [
+        {
+            "name" : "AWS Certified Big Data Specialty",
+            "img" : "img.jpg",
+            "route" : "aws-big-data-specialty"
+        },
+        {
+            "name" : "AWS Certified Solution Architect Associate",
+            "img" : "img.jpg",
+            "route" : "aws-certified-solution"
+        },
+        {
+            "name" : "AWS Certified Developer Associate",
+            "img" : "img.jpg",
+            "route" : "aws-certified-developer"
+        },
+        {
+            "name" : "AWS Certified SysOps Associate",
+            "img" : "img.jpg",
+            "route" : "aws-certified-sysops"
+        }
+    ]
+}

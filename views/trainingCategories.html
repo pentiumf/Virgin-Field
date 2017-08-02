@@ -1,0 +1,47 @@
+<div class="training-page-container">
+
+    <div class="training-page-bg" id="trainingCategoryBg">
+
+    <div class="training-category-caption">
+        <div class="training-category-caption-banner">
+            <h3>Tranform From Hero to Zero</h3>
+            <p>Get Proffesional Training And Become An Expert In Your Field. We Offer Advanced Training In Microsoft, VMware, AWS etc.</p>
+            <a ui-sref="enroll">Get Started</a>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="training-category-header">
+        <div class="training-category-header-inner">
+            <h2>Want To Know More ?</h2>
+            <p>Browse Our International Training Courses. There Is A Package For Everyone</p>
+        </div>
+    </div>
+
+    <div id="trainingCategoryContainer" class="trainings-wrapper">
+
+      <div class="training-container clearfix" ng-show="loader==false">
+          <div class="training-category" ng-repeat="category in data">
+              <div class="training-category-img">
+                  <a href="#/training/{{category.route}}"><img ng-src="{{category.img}}" alt=""></a>
+              </div>
+              <div class="training-category-caption">
+                  <h3>{{category.name}}</h3>
+              </div>
+          </div>
+          <a href="#/training/{{category.route}}"></a>
+      </div>
+
+    </div>
+    
+    
+    <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+    </div>  
+
+</div>
+
+
+
+
+

@@ -18,31 +18,49 @@
     ],
     "verticals" : [
         {
-            "vertical" : "Industrial Asset Management: Our Asset Management solutions is the most smart and easy to deploy solution supporting a range of device sensors collecting and sending telemetry data to the IoT Platform of your choice in the cloud and on-premises. We provide clients with a single pane of glass and power visualization customizable dashboards with integration with Microsoft Power BI solution."
+            "vertical" : "Our Asset Management solutions is the most smart and easy to deploy solution supporting a range of device sensors collecting and sending telemetry data to the IoT Platform of your choice in the cloud and on-premises. We provide clients with a single pane of glass and power visualization customizable dashboards with integration with Microsoft Power BI solution.",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405980/pie-chart_aiedfz.png",
+            "name" : "Industrial Asset Management"
         },
         {
-            "vertical" : "Smart Building & Smart Cities: We provide our clients with tighter and secure integration of smart home and security devices and smart building technologies enabling intelligent and remote access and control of the building. You can define building temperature, humidity threshold for alerts and suspicious activity allowing the client to monitor environmental conditions, and develop a daily schedule to optimizes building resources; all through an intuitive user interface."
+            "vertical" : "We provide our clients with tighter and secure integration of smart home and security devices and smart building technologies enabling intelligent and remote access and control of the building. You can define building temperature, humidity threshold for alerts and suspicious activity allowing the client to monitor environmental conditions, and develop a daily schedule to optimizes building resources; all through an intuitive user interface.",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405979/house_povcwu.png",
+            "name" : "Smart Building & Smart Cities"
         },
         {
-            "vertical" : "Smart Grid"
+            "vertical" : "Smart Grid",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405979/internet_xobl82.png",
+            "name" : "Smart Grid"
         },
         {
-            "vertical" : "Smart Solar Power: Proactive monitoring, maintenance, and optimization of any sized solar application. With integrated partner analytics we leverage predictive analytics to generate crucial insights for industrial and consumer applications alike. With a single pane of glass you can easily track everything you need to know about your solar energy system. Automatically schedule your maintenance window at exactly the right time; not before it's needed and not after it’s broken and costing you money. Optimize power output to decrease your energy bill and help the environment."
+            "vertical" : "Proactive monitoring, maintenance, and optimization of any sized solar application. With integrated partner analytics we leverage predictive analytics to generate crucial insights for industrial and consumer applications alike. With a single pane of glass you can easily track everything you need to know about your solar energy system. Automatically schedule your maintenance window at exactly the right time; not before it's needed and not after it’s broken and costing you money. Optimize power output to decrease your energy bill and help the environment.",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405980/solar-panel_gzph4j.png",
+            "name" : "Smart Solar Power"
         },
         {
-            "vertical" : "Predictive Maintenance"
+            "vertical" : "Predictive Maintenance",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405979/hosting_vyyiw2.png",
+            "name" : "Predictive Maintenance"
         },
         {
-            "vertical" : "Connected Factory"
+            "vertical" : "Connected Factory",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405979/factory_l3yaw0.png",
+            "name" : "Connected Factory"
         },
         {
-            "vertical" : "Connected Health"
+            "vertical" : "Connected Health",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405979/electrocardiogram_hwb03p.png",
+            "name" : "Connected Health"
         },
         {
-            "vertical" : "Connected ATMs"
+            "vertical" : "Connected ATMs",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405979/atm_ah6q3y.png",
+            "name" : "Connected ATMs"
         },
         {
-            "vertical" : "Connected Retail Stores"
+            "vertical" : "Connected Retail Stores",
+            "icon" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501405980/online-store_buiexf.png",
+            "name" : "Connected Retail Stores"
         }
     ]
 }

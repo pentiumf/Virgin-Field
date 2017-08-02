@@ -1,0 +1,147 @@
+{
+	"name": "Designing and Implementing Big Data Analytics Solutions",
+
+	"intro" : "If you are looking to design and implement real life Big Data and Analytics solutions on Microsoft Azure for your company or industry vertical and would like to learn the technology and best practices needed to achieve your goal, then this training is for you. This training will offer you the hands on and knowledge required to implement efficient Big Data and Analytics solutions on Microsoft Azure and will also give you the industry recognition as we prepare you for Microsoft Certification Exam 70-475, be sure to take this practical course. Register for our on-prem training program to explore what you need to know to pass, create an action plan, and get exam tips and additional resources.Learn what it takes to pass Microsoft Certification Exam 70-475: Designing and Implementing Big Data Analytics Solutions.",
+
+	"title" : "Designing and Implementing Big Data Analytics Solutions",
+
+	"description" : "",
+
+	"prerequisite" : "",
+
+	"objectives" : [
+        
+	],
+
+	"textbook" : "",
+
+	"certification" : "",
+
+	"nextClassPossibilities" : "",
+
+	"lesson" : [
+
+		{
+			"sessionHead" : "Module One - Design Big Data Batch Processing and Interactive Solutions",
+
+			"session": [
+				{
+					"lab" : "Ingest data for batch and interactive processing"
+				},
+				{
+					"lab" : "Ingest from cloud-born or on-premises data, store data in Microsoft Azure Data Lake, store data in Azure BLOB Storage, perform a one-time bulk data transfer, perform routine small writes on a continuous basis"
+				},
+				{
+					"lab" : "Design and provision compute clusters"
+				},
+                {
+                    "lab" : "Select compute cluster type, estimate cluster size based on workload"
+                },
+                {
+                    "lab" : "Design for data security"
+                },
+                {
+                    "lab" : "Protect personally identifiable information (PII) data in Azure, encrypt and mask data, implement role-based security, implement row-based security"
+                },
+                {
+                    "lab" : "Design for batch processing"
+                },
+                {
+                    "lab" : "Select appropriate language and tool, identify formats, define metadata, configure output"
+                }
+
+			]
+		},
+        {
+			"sessionHead" : "Module Two - Design Big Data Real-Time Processing Solutions",
+
+			"session": [
+				{
+					"lab" : "Ingest data for real-time processing"
+				},
+				{
+					"lab" : "Select data ingestion technology, design partitioning scheme, design row key of event tables in HBase"
+				},
+				{
+					"lab" : "Design and provision compute resources"
+				},
+                {
+					"lab" : "Select streaming technology in Azure, select real-time event processing technology, select real-time event storage technology, select streaming units, configure cluster size, select the right technology for business requirements, assign appropriate resources for HBase clusters"
+				},
+                {
+                    "lab" : "Design for Lambda architecture"
+                },
+                {
+                    "lab" : "Identify application of Lambda architecture, utilize streaming data to draw business insights in real time, utilize streaming data to show trends in data in real time, utilize streaming data and convert into batch data to get historical view, design such that batch data doesn’t introduce latency, utilize batch data for deeper data analysis"
+                },
+                {
+                    "lab" : "Design for real-time processing"
+                },
+                {
+                    "lab" : "Design for latency and throughput, design reference data streams, design business logic, design visualization output"
+                }
+
+			]
+		},
+        {
+			"sessionHead" : "Module Three - Operationalize End-To-End Cloud Analytics Solutions",
+
+			"session": [
+				{
+					"lab" : "Create a data factory"
+				},
+				{
+					"lab" : "Identify data sources, identify and provision data processing infrastructure, utilize Visual Studio to design and deploy pipelines, deploy Data Factory Jobs"
+				},
+				{
+					"lab" : "Orchestrate data processing activities in a data-driven workflow"
+				},
+                {
+					"lab" : "Leverage data-slicing concepts, identify data dependencies and chaining multiple activities, model complex schedules based on data dependencies, provision and run data pipelines"
+				},
+                {
+                    "lab" : "Monitor and manage the data factory"
+                },
+                {
+                    "lab" : "Identify failures and root causes, create alerts for specified conditions, perform a restatement, start and stop data factory pipelines"
+                },
+                {
+                    "lab" : "Move, transform, and analyze data"
+                },
+                {
+                    "lab" : "Leverage Pig, Hive, MapReduce for data processing; copy data between on-premises and cloud; copy data between cloud data sources; leverage stored procedures; leverage Machine Learning batch execution for scoring, retraining, and update resource; extend the data factory with custom processing steps; load data into a relational store, visualize using Power BI"
+                },
+                {
+                    "lab" : "Design a deployment strategy for an end-to-end solution"
+                },
+                {
+                    "lab" : "Leverage PowerShell for deployment, automate deployment programmatically, design deployment strategies for automation"
+                }
+
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

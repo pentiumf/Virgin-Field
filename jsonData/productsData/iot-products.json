@@ -1,0 +1,26 @@
+{
+    "name" : "Internet Of Things Products",
+    "bg" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501670138/software-asset-management-sam_epnfb2.jpg",
+    "products" : [
+        {
+            "title" : "Asset Management Operations Center",
+            "desc" : "Our Asset Management solutions is the most smart and easy to deploy solution supporting a range of device sensors collecting and sending telemetry data to the IoT Platform of your choice in the cloud and on-premises. We provide clients with a single pane of glass and power visualization customizable dashboards with integration with Microsoft Power BI solution.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501670138/software-asset-management-sam_epnfb2.jpg"
+        },
+        {
+            "title" : "Smart Buildings Operations Center",
+            "desc" : "We provide our clients with tighter and secure  integration of smart home and security devices and smart building technologies enabling intelligent and remote access and control of the building. You can define building temperature, humidity threshold for alerts and suspicious activity allowing the client to monitor environmental conditions, and develop a daily schedule to optimizes building resources; all through an intuitive user interface.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501670306/Tablet-smartphone-smart-buildings_jhlyzn.jpg"
+        },
+        {
+            "title" : "Predictive Maintainace Application",
+            "desc" : "A Preventive Maintenance (PM) system is critical to effective asset management. From inspection tasks designed to detect impending failures to lubrication and wear part replacement, your PM system is the first line of defense against unplanned downtime and equipment failures.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501670138/predictivemaintainace_mtw92j.jpg"
+        },
+        {
+            "title" : "Connected Health Operation Center",
+            "desc" : "We offer services to help you plan, implement, and optimize your digital healthcare platform—the very platform that empowers your clinicians to work better, anywhere and anytime. We enable patient records that reflect the continuum of care and are available wherever clinicians need them. Regardless of location, care teams can more securely collaborate among themselves, as well as communicate with patients, without safety concerns. And because the network foundation is so reliable, you can count on it and your applications to work.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501670139/digital-marketing-in-healthcare-industry_bvpkvs.png"
+        }
+    ]
+}

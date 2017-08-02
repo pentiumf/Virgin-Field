@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "VMware Courses",
+        "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501343828/vmware_s2cgl7.png",
+        "route" : "vmware-courses"
+    },
+    {
+        "name" : "Developer Courses",
+        "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501343827/programming_yc67wt.png",
+        "route" : "developer-courses"
+    },
+    {
+        "name" : "AWS Courses",
+        "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501343828/AWS_sz5jz7.png",
+        "route" : "aws-courses"
+    },
+    {
+        "name" : "Microsoft Courses",
+        "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501343827/microsoft_1_fuyr80.png",
+        "route" : "microsoft-courses"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501494944/Microsoft_New_Logo_oityva.png",
+        "website" : "https://www.microsoft.com/"
+    },
+    {
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501499560/500px-AWS_Simple_Icons_AWS_Cloud.svg_1_z05vhc.png",
+        "website" : "https://aws.amazon.com/"
+    },
+    {
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501499801/vmware_workstation_wallpaper1_elngov.png",
+        "website" : "https://www.vmware.com/"
+    },
+    {
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501494944/callenssolution_nyyvq7.png",
+        "website" : "https://www.callenssolutions.com/"
+    }
+]

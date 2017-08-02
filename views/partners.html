@@ -1,0 +1,24 @@
+<div class="partners-conatiner">
+    <div class="partners-bg">
+        <div class="partners-bg-capt">
+            <h2>Our Partners</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ut!</p>
+            <span></span>
+        </div>
+        <span class="partners-bg-cover"></span>
+    </div>
+    
+    <div class="partners-banner animated fadeInLeftBig">
+        <h2>These are just a few of our partners who trust us and our solutions</h2>
+        <span></span>
+    </div>
+    
+    <div class="our-partners clearfix">
+        <div class="partner animated fadeIn" ng-repeat="partner in partners">
+            <div class="partner-logo">
+                <img ng-src="{{partner.logo}}"/>
+            </div>
+            <a href="{{partner.website}}" target="_blank"></a>
+        </div>
+    </div>
+</div>

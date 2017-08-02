@@ -1,0 +1,11 @@
+{
+    "name" : "VF Api platform",
+    "bg" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501673719/2-4-15-Shaping-A-Common-Future-Kin-Lane-on-Open-API-Development-e1423075408924-2_zsdjvr.jpg",
+    "products" : [
+        {
+            "title" : "Virgin Fields API Platform",
+            "desc" : "API platform is an organisation which brings together two or more distinct, but interdependent groups, through a programmatically consumable service or an Application Programming Interface (API) , creating a foundation for automated interactions between them. At Virgin Field we provide a secure and solid API gateway for connection of data betwwen developers around.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501673709/bbva-open4u-api-rest_yx8i4e.jpg"
+        }
+    ]
+}

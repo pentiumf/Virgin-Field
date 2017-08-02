@@ -1,0 +1,18 @@
+{
+    "name" : "Big Data Products",
+    "bg" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501672576/image1_ikqtht.png",
+    "products" : [
+        {
+            "title" : "Big Data Analytics Application",
+            "desc" : "Big data analytics is the process of collecting, organizing and analyzing large sets of data (called big data) to discover patterns and other useful information. Big data analytics can help organizations to better understand the information contained within the data and will also help identify the data that is most important to the business and future business decisions. At virgin Fields we develop high level big data applications to suit your need.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501672938/AnalyticsBigData-P1-1024px-1024x512_xhdywj.png"
+        },
+        {
+            "title" : "Big Data Factory Application",
+            "desc" : "Monitor and manage your network of data pipelines at a glance to identify issues and take action. Easily understand when data arrives, where it comes from and how and when it is ready for processing. Set up alerts to monitor your overall Data Factory service health. Data Factory saves you time and money by automating your data pipelines with on-demand cloud resource management.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501672598/Big-data-factory_fe8dec.jpg"
+        }
+    ]
+}
+
+

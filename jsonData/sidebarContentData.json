@@ -6,7 +6,7 @@
         "icon" : "fa fa-cogs",
         "links" : [
             {
-                "header": "IoT Solutions",
+                "header": "Internet Of Tthings(IoT) Solutions",
                 "route" : "solutions/iot-solutions",
                 "suDesc": "We provide a complete end-to-end IoT solutions for our clients spanning from choice of device sensors, connectivity models, IoT Platform services and Cloud services of your choice.",
                 "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922519/iot_i9aykz.jpg"
@@ -28,12 +28,6 @@
                 "route" : "solutions/architectural-consulting",
                 "suDesc": "We Provide Various Consulting solutions for our clients.",
                 "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500922526/arc-consult_xdbi3m.jpg"
-            },
-            {
-                "header": "Training and Education",
-                "route" : "solutions/training-education",
-                "suDesc": "We provide training and educate people in many fields. You can enroll in any of our trainng courses of your coice",
-                "img" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500923171/training_dlyffv.png"
             },
             {
                 "header": "In house and Outsourced Development",
@@ -66,6 +60,11 @@
                 "header": "AWS Servives",
                 "route" : "cloud-services/aws-services",
                 "suDesc": "Get the best of Amazone Cloud Services for your busineess"
+            },
+            {
+                "header": "VMware Servives",
+                "route" : "cloud-services/vmware-services",
+                "suDesc": "Get the best of VMware Cloud Services for your busineess"
             }
         ]
     },
@@ -77,9 +76,33 @@
         "icon" : "fa fa-product-hunt",
         "links" : [
             {
-                "header": "IoT Products",
+                "header": "Internet Of Things(IoT) Products",
                 "route" : "products/iot-products",
                 "suDesc": "Explore The Wide Ranges Of Our Products."
+            },
+            {
+                "header": "Big Data Analytics",
+                "route" : "products/big-data-products",
+                "suDesc": "Explore The Wide Ranges Of Our Products."
+            },
+            {
+                "header": "VF Api Platform",
+                "route" : "products/vf-api-platfrom",
+                "suDesc": "Explore The Wide Ranges Of Our Products."
+            }
+        ]
+    },
+    
+    {
+        "id" : "partner",
+        "route" : "partners",
+        "name" : "partner",
+        "icon" : "fa fa-users",
+        "links" : [
+            {
+                "header": "Virgin Fields Partners",
+                "route" : "partners",
+                "suDesc": ""
             }
         ]
     },

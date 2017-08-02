@@ -1,33 +1,40 @@
 
-<div class="training-page-container">
-   
-    <div class="training-page-bg">
+
+
+
+<div class="training-page-container" ng-show="loader==false">
+  
+  
+   <div id="trainingPageBg" class="training-page-bg">
         <div class="training-page-caption">
-            <h1>Enroll In Our Top Training Courses</h1>
+            <div class="training-page-caption-brand">
+                 <h1>{{data.name}}</h1>
+                <img ng-src="{{data.logo}}">
+            </div>
         </div>
     </div>
+   
     
     <div class="trainings-wrapper">
      
-      <h2>Our Top Courses</h2>
       
       <div class="training-container clearfix" ng-show="loader==false">
-          <div class="training" ng-repeat="training in data">
+          <div class="training" ng-repeat="training in data.courses">
               <div class="training-caption">
                   <h3>{{training.name}}</h3>
-                  <p>{{training.desc | limitTo: 200}}..</p>
-                  <a ui-sref="trainingDetail({name: training.route})">View Course Details</a>
+                  <p><img src="http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501374608/student_1_hkqmgt.png" alt=""></p>
+                  <a ui-sref="trainingDetail({name: training.route})"><i class="fa fa-graduation-cap"></i> View Course Details</a>
               </div>
           </div>
        </div>
         
     </div>
     
-  </div>
+</div>
   
   
-  <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
-  </div>
+<div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+</div>
 
 
 

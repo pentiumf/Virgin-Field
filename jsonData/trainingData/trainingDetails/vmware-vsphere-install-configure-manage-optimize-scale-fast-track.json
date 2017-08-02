@@ -1,7 +1,7 @@
 {
 	"name": "VMWARE VSPHERE - INSTALL CONFIGURE MANAGE AND OPTIMIMIZE AND SCALE FAST TRACK",
 
-	"intro" : "None",
+	"intro" : "",
 
 	"title" : "VMware vSphere: Install, Configure, Manage plus Optimize and Scale Fast Track",
 
@@ -44,7 +44,7 @@
 
 	"certification" : "Completion of this course satisfies the prerequisite for taking the VMware Certified Professional 6 – Data Center Virtualization (VCP6-DCV) exam.",
 
-	"nextClassPossibilities" : "None",
+	"nextClassPossibilities" : "",
 
 	"lesson" : [
 

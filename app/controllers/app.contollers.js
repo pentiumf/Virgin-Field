@@ -29,10 +29,20 @@ angular.module("appController", [])
     });
     
 }])
-.controller('trainingController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+.controller('trainingCategoriesController', ['$scope', 'homeFactory', function($scope, homeFactory) {
     $scope.loader = true;
     
-    homeFactory.getTrainingCourses(function(result) {
+    homeFactory.getTrainingCategories(function(result) {
+       $scope.data  = result;
+       $scope.loader = false;
+    });
+    
+}])
+.controller('trainingController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    var param = $stateParams.name;
+    $scope.loader = true;
+    
+    homeFactory.getTrainingCourses(param, function(result) {
        $scope.data = result;
        $scope.loader = false;
             
@@ -42,8 +52,9 @@ angular.module("appController", [])
 .controller('trainingDetailsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
     $scope.loader = true;
     var name = $stateParams.name;
+
     
-    homeFactory.getTrainingData(name, function(result) {
+    homeFactory.getTrainingDetails(name, function(result) {
        $scope.data = result;
        $scope.loader = false;
     });
@@ -58,6 +69,28 @@ angular.module("appController", [])
     $scope.sendRequest = function() {
         alert('bik')
     }
+    
+}])
+.controller('partnersController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    homeFactory.getPartners(function(result) {
+       $scope.partners = result;
+    });
+    
+}])
+.controller('productsController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    
+    homeFactory.getProductsCategory(function(result) {
+       $scope.productsCat = result;
+    });
+    
+}])
+.controller('productsListingsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    var param = $stateParams.name;
+    
+    homeFactory.getProducts(param, function(result) {
+       $scope.data = result;
+    });
+    
     
 }])
 .controller('contactController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {

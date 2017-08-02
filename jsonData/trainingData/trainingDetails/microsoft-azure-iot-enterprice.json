@@ -1,0 +1,98 @@
+{
+	"name": "Microsoft Azure IoT For The Enterprise",
+
+	"intro" : "The Microsoft Enterprise IoT Solution is purposed built to provide cost savings to the Enterprises as they continue to move towards a cost-per-use model while ensuring security, integration, long-term ROI, and agility are present in their architecture.",
+
+	"title" : "Microsoft Azure IoT For The Enterprise",
+
+	"description" : "The focus of this course is on diverse facets of the enterprise such as DevOps, Development, Security, Architecture, Compliance, Hardware, Integration, with understanding of best practices to and to ensure a deeper in-depth look is given to tackle specific environments Enterprises deal with daily. With the introduction of an End-To-End solution platform, Microsoft's Azure platform for IoT brings a comprehensive suite of offerings that is further extended by the Azure infrastructure itself. This course is designed to give Enterprise users of Azure and IoT platforms to be able to understand the features and options the platform brings. This course is designed to provide you with an in-depth knowledge in these areas.",
+
+	"prerequisite" : "",
+
+	"objectives" : [
+		{"objective" : "Microsoft Azure IoT For The Enterprise"}
+	],
+
+	"textbook" : "",
+
+	"certification" : "",
+
+	"nextClassPossibilities" : "",
+
+	"lesson" : [
+
+		{
+			"sessionHead" : "Azure Internet of Things",
+
+			"session": [
+                
+			]
+		},
+        {
+			"sessionHead" : "Azure IoT Devops",
+
+			"session": [
+                
+			]
+		},
+        {
+			"sessionHead" : "Azure IoT Development",
+
+			"session": [
+                
+			]
+		},
+        {
+			"sessionHead" : "Azure IoT Security",
+
+			"session": [
+                
+			]
+		},
+        {
+			"sessionHead" : "Azure IoT Architecture",
+
+			"session": [
+                
+			]
+		},
+        {
+			"sessionHead" : "Azure IoT Enterprise Use Case",
+
+			"session": [
+                
+			]
+		},
+        {
+			"sessionHead" : "Azure IoT Platform and Industry Best Practices",
+
+			"session": [
+                
+			]
+		}
+        
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

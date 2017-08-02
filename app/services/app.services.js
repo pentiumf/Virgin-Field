@@ -2,6 +2,7 @@ angular.module("appServices", [])
 .factory('homeFactory', ['$http', '$location', '$sce', function($http, $location, $sce) {
     var homeServices = {};
     
+    //Sidebar
     homeServices.getSideBarData = function(cb) {
         $http({
             url: 'jsonData/sidebarContentData.json',
@@ -13,10 +14,21 @@ angular.module("appServices", [])
         });
     }
     
-    
-    homeServices.getTrainingData = function(a, cb) {
+    //Training 
+    homeServices.getTrainingCategories = function(cb) {
         $http({
-            url: 'trainingPageData/'+a+'.json',
+            url: 'jsonData/trainingData/trainingCategory.json',
+            method: 'GET',
+        }).then(function(response){
+            cb(response.data);
+        }, function(response){
+            //$location.url('/404');
+        });
+    }
+    
+    homeServices.getTrainingCourses = function(a, cb) {
+        $http({
+            url: 'jsonData/trainingData/trainings/'+a+'.json',
             method: 'GET',
         }).then(function(response){
             cb(response.data);
@@ -25,9 +37,10 @@ angular.module("appServices", [])
         });
     }
     
-    homeServices.getTrainingCourses = function(cb) {
+    
+    homeServices.getTrainingDetails = function(a, cb) {
         $http({
-            url: 'jsonData/trainingCourses.json',
+            url: 'jsonData/trainingData/trainingDetails/'+a+'.json',
             method: 'GET',
         }).then(function(response){
             cb(response.data);
@@ -36,6 +49,7 @@ angular.module("appServices", [])
         });
     }
     
+    //Country
     homeServices.getCountries = function(cb) {
         var url = 'jsonData/countries.json';
         var trustedUrl = $sce.trustAsResourceUrl(url);
@@ -51,6 +65,8 @@ angular.module("appServices", [])
         
     }
     
+    
+    //Solution
     homeServices.getSolutionsDetail = function(a , cb) {
         $http({
             url: 'jsonData/solutionsData/'+a+'.json',
@@ -61,6 +77,43 @@ angular.module("appServices", [])
             $location.url('/404');
         });
     }
+    
+    //Partners
+    homeServices.getPartners = function(cb) {
+        $http({
+            url: 'jsonData/partners.json',
+            method: 'GET',
+        }).then(function(response){
+            cb(response.data);
+        }, function(response){
+            //$location.url('/404');
+        });
+    }
+    
+    //Products Category
+    homeServices.getProductsCategory = function(cb) {
+        $http({
+            url: 'jsonData/productsCat.json',
+            method: 'GET',
+        }).then(function(response){
+            cb(response.data);
+        }, function(response){
+            //$location.url('/404');
+        });
+    }
+    
+    //Producst
+    homeServices.getProducts = function(a , cb) {
+        $http({
+            url: 'jsonData/productsData/'+a+'.json',
+            method: 'GET',
+        }).then(function(response){
+            cb(response.data);
+        }, function(response){
+            $location.url('/404');
+        });
+    }
+    
     
     
     return homeServices;

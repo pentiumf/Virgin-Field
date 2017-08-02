@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Internet Of Things(IoT)",
+        "routs" : "iot-products",
+        "desc" : "We Offer wide rande of IoT products for our customers. Get connected to our devices and make your life easy",
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526667/ereader_k7vb6h.png" 
+    },
+    {
+        "name" : "Big Data",
+        "routs" : "big-data-products",
+        "desc" : "Big Data Analytics for both large and small companies. We make day to day data collection easy",
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526668/folder_tnpywv.png"
+    },
+    {
+        "name" : "Api Platform",
+        "routs" : "vf-api-platfrom",
+        "desc" : "Connect with our API platform discover more..",
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526667/api_t8lksu.png"
+    }
+]

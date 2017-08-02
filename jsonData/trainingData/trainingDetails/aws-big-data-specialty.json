@@ -1,0 +1,147 @@
+{
+	"name": "AWS Certified Big Data Specialty",
+
+	"intro" : "Big Data is one of the most exciting and in-demand skills powering large companies such as Google and Facebook. It is no wonder Amazon Web Services (AWS) has realeased a Big Data Certification to catalyze the move to AWS Big Data solutions.",
+
+	"title" : "AWS Certified Big Data Specialty",
+
+	"description" : "This in-depth course will provide you with the required knowledge needed to be prepared to take the AWS Big Data Specialty Certification. We will be covering the various Big Data products available and build highly scalable and secure Big Data applications.",
+
+	"prerequisite" : "AWS requires candidates who are taking the AWS Big Data Certification to have a current AWS Certified Solution Architect  - Associate or AWS Certified Developer - Associate or AWS Certified SysOps Administrator - Associate. If you haven't taken any of the certifications, the AWS Certified Solution Architect - Associate provides the best starting point among the three associate certifications. If you have taken one of the other certifications you can still have a look at the Linux Academy course on the AWS Certified Solution Architect - Associate.",
+
+	"objectives" : [
+	],
+
+	"textbook" : "",
+
+	"certification" : "",
+
+	"nextClassPossibilities" : "",
+
+	"lesson" : [
+
+		{
+			"sessionHead" : "Domain 1.0: Collection Content may include the following",
+
+			"session": [
+                {
+                    "lab" : "Determine the operational characteristics of the collection system"
+                },
+                {
+                    "lab" : "Select a collection system that handles the frequency of data change and type of data being ingested"
+                },
+                {
+                    "lab" : "Identify the properties needed to be enforced by the collection system: order, data structure, metadata, etc."
+                },
+                {
+                    "lab" : "Explain the durability and availability characteristics for the collection approach"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Domain 2.0: Storage Content may include the following:",
+
+			"session": [
+                {
+                    "lab" : "Determine and optimize the operational characteristics of the storage solution"
+                },
+                {
+                    "lab" : "Determine data access and retrieval patterns"
+                },
+                {
+                    "lab" : "Evaluate mechanisms for capture, update, and retrieval of catalog entries"
+                },
+                {
+                    "lab" : "Determine appropriate data structure and storage format"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Domain 3.0: Processing Content may include the following",
+
+			"session": [
+                {
+                    "lab" : "Identify the appropriate data processing technology needed for a given scenario"
+                },
+                {
+                    "lab" : "Determine how to design and architect the data processing solution"
+                },
+                {
+                    "lab" : "Determine the operational characteristics of the solution implemented"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Domain 4.0: Analysis",
+
+			"session": [
+                {
+                    "lab" : "Determine the tools and techniques required for analysis"
+                },
+                {
+                    "lab" : "Determine how to design and architect the analytical solution"
+                },
+                {
+                    "lab" : "Determine and optimize the operational characteristics of the Analysis System"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Domain 5.0: Visualization",
+
+			"session": [
+                {
+                    "lab" : "Determine the appropriate techniques for delivering the results/output"
+                },
+                {
+                    "lab" : "Determine how to design and create the Visualization platform"
+                },
+                {
+                    "lab" : "Determine and optimize the operational characteristics of the Visualization system"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Domain 6.0: Data Security",
+
+			"session": [
+                {
+                    "lab" : "Determine encryption requirements and/or implementation technologies"
+                },
+                {
+                    "lab" : "Choose the appropriate technology to enforce data governance"
+                },
+                {
+                    "lab" : "Identify how to ensure data integrity"
+                },
+                {
+                    "lab" : "Evaluate regulatory requirements"
+                }
+			]
+		}
+        
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

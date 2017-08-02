@@ -1,8 +1,5 @@
 
- 
-
-   
-<div class="training-detail-wrap" ng-show="loader==false">
+ <div class="training-detail-wrap" ng-if="data.name != ''" ng-show="loader==false">
     <div class="training-details-bg">
         <div class="training-details-caption">
             <h2>{{data.name}}</h2>
@@ -12,35 +9,35 @@
     
     <div class="training-details">
         
-        <div class="training-header">
+        <div ng-if="data.name != ''" class="training-header">
             <h2>{{data.name}}</h2>
         </div>
        
-        <div class="training-intro course">
+        <div ng-if="data.intro != ''" class="training-intro course">
             <h3>What You Will Learn</h3>
             <p>{{data.intro}}</p>
         </div>
-        <div class="training-requirements course">
+        <div ng-if="data.prerequisite != ''" class="training-requirements course">
             <h3>Course Pre-requisites</h3>
             <p>{{data.prerequisite}}</p>
         </div>
-        <div class="training-textbook course">
+        <div ng-if="data.textbook != ''" class="training-textbook course">
             <h3>Textbook</h3>
             <p>{{data.textbook}}</p>
         </div>
-        <div class="training-certification-note course">
+        <div ng-if="data.certification != ''" class="training-certification-note course">
             <h3>Certification Notes</h3>
             <p>{{data.certification}}</p>
         </div>
-        <div class="training-next-class course">
+        <div ng-if="data.nextClassPossibilities != ''" class="training-next-class course">
             <h3>Next class possibilities</h3>
             <p>{{data.nextClassPossibilities}}</p>
         </div>
-        <div class="training-description course">
+        <div ng-if="data.description != ''"  class="training-description course">
             <h3>Course Description</h3>
             <p>{{data.description}}</p>
         </div>
-        <div class="training-objectives course">
+        <div ng-if="data.objectives.length > 0" class="training-objectives course">
             <h3>Course Ojectives</h3>
             <ul>
                 <li ng-repeat="objective in data.objectives"><i class="fa fa-check" aria-hidden="true"></i> {{objective.objective}}</li>
@@ -65,6 +62,14 @@
     </div>
 </div>
 
+
+<div ng-if="data.name == ''" class="coming-soon-training">
+    <div class="coming-soon-cap">
+        <h1>Training Details coming soon..</h1>
+        <p>You can contact us for more information to keep you posted</p>
+        <a href="#/contact">Contact Us</a>
+    </div>
+</div>
 
 <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
 </div>  

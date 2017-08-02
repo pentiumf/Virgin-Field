@@ -1,0 +1,34 @@
+<div class="product-container">
+   
+    <div class="products-bg">
+        <div class="products-bg-caption">
+            <h1>Products & Services</h1>
+        </div>
+        <span></span>
+    </div>
+    
+    
+    <div class="products-banner">
+        <h3>Virgin Fields Featured Products</h3>
+    </div>
+    
+    <div class="vf-products-wrapper clearfix">
+       
+        <div class="vf-product-category" ng-repeat="cat in productsCat">
+            <div class="vf-product-category-title">
+               <h2>{{cat.name}}</h2>
+            </div>
+            <div class="vf-product-category-img">
+                <img ng-src="{{cat.logo}}" alt="">
+            </div>
+            <div class="vf-product-category-capt">
+                <p>Virgin Fields</p>
+            </div>
+            <div class="vf-product-category-button">
+                <a href="#/products/{{cat.routs}}">Explore</a>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>

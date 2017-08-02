@@ -1,0 +1,24 @@
+
+    {
+        "name" : "VMware Training Courses",
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501367918/college-graduation_hdepsr.png",
+        "courses" : [
+            {
+                "name" : "VMware vSphere: Install, Configure, Manage",
+                "img" : "img.jpg",
+                "route" : "vmware-vsphere-install-confing-manage"
+            },
+            {
+                "name" : "VMware vSphere: Install, Configure, Manage plus Optimize and Scale Fast Track",
+                "img" : "img.jpg",
+                "route" : "vmware-vsphere-install-configure-manage-optimize-scale-fast-track"
+            },
+            {
+                "name" : "VMware vSphere: Optimize & Scale",
+                "img" : "img.jpg",
+                "route" : "vmware-vsphere-otimize-and-scale"
+            }
+        ]
+    }
+
+

@@ -1,0 +1,507 @@
+{
+	"name": "Designing and Implementing Cloud Data Platform Solutions",
+
+	"intro" : "",
+
+	"title" : "Designing and Implementing Cloud Data Platform Solutions",
+
+	"description" : "",
+
+	"prerequisite" : "",
+
+	"objectives" : [
+        
+	],
+
+	"textbook" : "",
+
+	"certification" : "",
+
+	"nextClassPossibilities" : "",
+
+	"lesson" : [
+
+		{
+			"sessionHead" : "1. Module One - Design and Implement Database Solutions for SQL Server and SQL Database",
+
+			"session": [
+				{
+					"lab" : "1.  Design a Hybrid SQL Server Solution: Design Geo/DR topology, design a data storage architecture, design a security architecture, design a data load strategy.",
+                    "style" : "bold"
+				},
+				{
+					"lab" : " a. Designing Database Solutions for SQL Server"
+				},
+				{
+					"lab" : "b. Introduction to SQL Server 2016 Hybrid Cloud"
+				},
+                {
+                    "lab" : "c. Hybrid Cloud Infrastructure Design Considerations"
+                },
+                {
+                    "lab" : "d. Hybrid data platform - making the most of Azure plus your on-prem kit"
+                },
+                {
+                    "lab" : "e. Cloud Computing Security Architecture (IT Pro Perspective)"
+                },
+                {
+                    "lab" : "f. Security Center for SQL Server Database Engine and Azure SQL Database"
+                },
+                {
+                    "lab" : "g. Introducing SQL Server 2016 R Services and Microsoft R Server"
+                }
+                
+
+			]
+		},
+        {
+			"sessionHead" : "Implement SQL Server on Azure virtual machines (VMs)",
+
+			"session": [
+				{
+                    "lab" : "1. Provision SQL Server in an Azure VM, configure firewall rules, configure and optimize storage, migrate an on-premises database to Microsoft Azure, configure and optimize VM sizes by workload",
+                    "style" : "bold"
+                },
+                {
+                    "lab" : "a. Learning path: Virtual Machines"
+                },
+                {
+                    "lab" : "b. Microsoft Azure Fundamentals: Virtual Machines"
+                },
+                {
+                    "lab" : "c. Create a virtual machine running Windows in the Azure portal"
+                },
+                {
+                    "lab" : "d. SQL Server in Azure VM Overview"
+                },
+                {
+                    "lab" : "e. SQL Server on Azure Virtual Machines overview"
+                },
+                {
+                    "lab" : "f. Provision a SQL Server virtual machine in Azure"
+                },
+                {
+                    "lab" : "g. Using Windows Firewall to restrict access to Windows Azure instances"
+                },
+                {
+                    "lab" : "h. Migrate a database to SQL Server on an Azure VM"
+                },
+                {
+                    "lab" : "i. SQL Server in Azure VM Performance Tuning"
+                },
+                {
+                    "lab" : "j. Azure Compute, Network, and Storage Providers under the Azure Resource Manager"
+                },
+                {
+                    "lab" : "k. DP304.TR21 SQL Server on Azure Virtual Machines: Best Practices & Features"
+                },
+                {
+                    "lab" : "l. DP310.TR20 Unplugged session: SQL Server on Microsoft Azure Virtual Machines"
+                },
+                {
+                    "lab" : "m. DP304.TR20 SQL Performance: Demystified in Azure VMs"
+                }
+
+			]
+		},
+        {
+			"sessionHead" : "Design a SQL Database solution",
+
+			"session": [
+				{
+					"lab" : "1. Design a solution architecture, design Geo/DR topology, design a security architecture, design a data load strategy, determine the appropriate service tier",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. Selecting a SQL Server option in Azure: Azure SQL Database (PaaS) or SQL Server on Azure VMs (IaaS) (aka Understanding Azure SQL Database and SQL Server in Azure VMs)"
+                },
+                {
+                    "lab" : "b. Windows Azure SQL Database and SQL Server -- Performance and Scalability Compared and Contrasted"
+                },
+                {
+                    "lab" : "c. Learning path: Azure SQL Database"
+                },
+                {
+                    "lab" : "d. Security Center for SQL Server Database Engine and Azure SQL Database"
+                },
+                {
+                    "lab" : "e. Import a BACPAC file to create a new Azure SQL database"
+                }
+
+			]
+		},
+        {
+			"sessionHead" : "Implement SQL Database",
+
+			"session": [
+				{
+					"lab" : "1. Provision SQL Database, configure firewall rules, configure active geo-replication, migrate an on-premises database to SQL Database, configure for scale and performance",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. How to configure an Azure SQL database firewall"
+                },
+                {
+                    "lab" : "b. How to: Configure firewall settings on SQL Database using the Azure Classic Portal"
+                },
+                {
+                    "lab" : "c. Active Geo-Replication for Azure SQL Database"
+                },
+                {
+                    "lab" : "d. Azure SQL Database performance guidance for single databases"
+                },
+                {
+                    "lab" : "e. Design for business continuity (aka How to enable Geo-Replication)"
+                },
+                {
+                    "lab" : "f. Security Configuration for Standard or Active Geo-Replication"
+                },
+                {
+                    "lab" : "g. Azure SQL Database Technical deck (with elastic database video)"
+                }
+
+			]
+		},
+        {
+			"sessionHead" : "Design and implement data warehousing on Azure",
+
+			"session": [
+				{
+					"lab" : "1. Design a data warehousing solution on Azure, design a data load strategy and topology, configure SQL Data Warehouse, migrate an on-premises database to SQL Data Warehouse",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. Modern Datacenter Architecture Patterns–Hybrid Networking"
+                },
+                {
+                    "lab" : "b. Create a SQL Data Warehouse"
+                },
+                {
+                    "lab" : "c. Data Warehouse Workload in Azure VM"
+                },
+                {
+                    "lab" : "d. Load data into SQL Data Warehouse"
+                },
+                {
+                    "lab" : "e. Load Data with Azure Data Factory"
+                },
+                {
+                    "lab" : "f. Incremental Data Loads (DW)---a Technical Reference Guide for Designing Mission-Critical DW Solutions"
+                },
+                {
+                    "lab" : "g. Migrate your solution to SQL Data Warehouse"
+                },
+                {
+                    "lab" : "h. Data Warehousing Technical Readiness"
+                }
+
+			]
+		},
+        {
+			"sessionHead" : "Module Two Design and Implement SQL Server database security",
+
+			"session": [
+                {
+					"lab" : "1. Configure firewalls; manage logins, users, and roles; assign permissions; configure auditing; configure transparent database encryption",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. Securing your SQL Database"
+                },
+                {
+                    "lab" : "b. SQL Server: Security Practices and Checklist"
+                },
+                {
+                    "lab" : "c. Securing access to your Windows Azure Virtual Machines"
+                },
+                {
+                    "lab" : "d. How to set up endpoints to a virtual machine"
+                },
+                {
+                    "lab" : "e. Managing Users, Roles, and Logins"
+                },
+                {
+                    "lab" : "f. Database-Level Roles"
+                },
+                {
+                    "lab" : "g. Granting, Revoking, and Denying Permissions"
+                },
+                {
+                    "lab" : "h. SQL Server Audit (Database Engine)"
+                },
+                {
+                    "lab" : "i. Using Encryption"
+                },
+                {
+                    "lab" : "j. Transparent Data Encryption (TDE)"
+                },
+                {
+                    "lab" : "k. Extensible Key Management Using Azure Key Vault (SQL Server)"
+                },
+                {
+                    "lab" : "l. Security Configuration for Standard or Active Geo-Replication"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Model Two Implement Azure SQL Database security",
+
+			"session": [
+                {
+					"lab" : "1. Configure firewalls; manage logins, users, and roles; assign permissions; configure auditing; configure row-level security; configure data encryption; configure data masking; configure Always Encrypted",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. Securing your SQL Database"
+                },
+                {
+                    "lab" : "b. How to: Configure firewall settings on SQL Database using the Azure Portal"
+                },
+                {
+                    "lab" : "c. Managing databases and logins in Azure SQL Database"
+                },
+                {
+                    "lab" : "d. Get started with SQL database auditing"
+                },
+                {
+                    "lab" : "e. Row-Level Security"
+                },
+                {
+                    "lab" : "f. Transparent Data Encryption with Azure SQL Database"
+                },
+                {
+                    "lab" : "g. Get started with SQL Database Dynamic Data Masking (Azure Portal)"
+                },
+                {
+                    "lab" : "h. SQL Server 2016 Always Encrypted"
+                },
+                {
+                    "lab" : "i. Getting Started With Always Encrypted"
+                },
+                {
+                    "lab" : "j. Always Encrypted (Database Engine)"
+                },
+                {
+                    "lab" : "k. Security and Azure SQL Database:"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Module Three - Design High Availability, Disaster Recovery, and Scalability",
+
+			"session": [
+                {
+					"lab" : "1. Design and Implement High Availability Solutions: Design a high availability solution topology, implement high availability solutions between on-premises and Azure, design cloud-based backup solutions, implement backup and recovery strategies",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. Microsoft Business continuity"
+                },
+                {
+                    "lab" : "b. How to write a disaster recovery plan and define disaster recovery strategies"
+                },
+                {
+                    "lab" : "c. Overview of AlwaysOn Availability Groups (SQL Server)"
+                },
+                {
+                    "lab" : "d. Database Mirroring and Replication (SQL Server)"
+                },
+                {
+                    "lab" : "e. Introduction to Backup and Restore Strategies in SQL Server"
+                },
+                {
+                    "lab" : "f. Recovery Models (SQL Server)"
+                },
+                {
+                    "lab" : "g. Back Up and Restore of SQL Server Databases"
+                },
+                {
+                    "lab" : "h. Azure Backup"
+                },
+                {
+                    "lab" : "i. Business Continuity Overview"
+                },
+                {
+                    "lab" : "j. Design for business continuity"
+                },
+                {
+                    "lab" : "k. Restore a Database Backup (SQL Server Management Studio)"
+                },
+                {
+                    "lab" : "l. Creation and Configuration of Availability Groups (SQL Server)"
+                },
+                {
+                    "lab" : "m. Configuration of a Server Instance for AlwaysOn Availability Groups (SQL Server)"
+                },
+                {
+                    "lab" : "n. Recover an Azure SQL Database from an outage"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Design and implement scalable solutions",
+
+			"session": [
+                {
+					"lab" : "1. Design a scale-out solution, implement multi-master scenarios with database replication, implement elastic scale for SQL Database",
+                    "style" : "bold"
+				},
+				{
+                    "lab" : "a. Security Configuration for Standard or Active Geo-Replication"
+                },
+                {
+                    "lab" : "b. Scale Out with SQL Database"
+                },
+                {
+                    "lab" : "c. Elastic Database features overview"
+                },
+                {
+                    "lab" : "d. Azure SQL Database Elastic Scale"
+                },
+                {
+                    "lab" : "e. Scaling-out SQL Server disks and data files on Windows Azure Virtual Machines…a real-world example"
+                },
+                {
+                    "lab" : "f. SQL Server Replication"
+                },
+                {
+                    "lab" : "g. Multimaster Replication"
+                },
+                {
+                    "lab" : "h. Price and performance considerations for an elastic database pool"
+                },
+                {
+                    "lab" : "i. Create a scalable elastic database pool for SQL databases in Azure portal"
+                },
+                {
+                    "lab" : "j. SQL Database elastic database pool reference"
+                },
+                {
+                    "lab" : "k. Sharding, Scale-out with Windows Azure SQL Database (Step by Step)"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Design and Implement SQL Database data recovery",
+
+			"session": [
+                {
+					"lab" : "1. Design a backup solution for SQL Database, implement self-service restore, copy and export databases"
+				},
+				{
+                    "lab" : "a. Backing Up and Restoring Databases and Transaction Logs"
+                },
+                {
+                    "lab" : "b. Backup and Restore of SQL Server Databases"
+                },
+                {
+                    "lab" : "c. Back Up and Restore of SQL Server Databases"
+                },
+                {
+                    "lab" : "d. DP323.TR19 Backup strategies, tools and topologies for Azure SQL Databases and SQL Server instances running on Azure Virtual Machines"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Module Four - Monitor and Manage Database Implementations on Azure",
+
+			"session": [
+                {
+					"lab" : "1. Monitor and troubleshoot SQL Server VMs on Azure: Monitor database and instance activity, monitor using dynamic management views (DMVs) and dynamic management functions (DMFs), monitor performance and scalability"
+				},
+				{
+                    "lab" : "a. Server Performance and Activity Monitoring"
+                },
+                {
+                    "lab" : "b. How to monitor your SQL Server instances and databases"
+                },
+                {
+                    "lab" : "c. Activity Monitor"
+                },
+                {
+                    "lab" : "d. HOW TO: Connect To A Windows Azure VM Using SQL Server Management Studio"
+                },
+                {
+                    "lab" : "e. Open Activity Monitor (SQL Server Management Studio)"
+                },
+                {
+                    "lab" : "f. Monitoring Azure SQL Database using dynamic management views"
+                },
+                {
+                    "lab" : "g. Dynamic Management Views and Functions (Transact-SQL)"
+                },
+                {
+                    "lab" : "h. Monitoring of Availability Groups (SQL Server)"
+                }
+			]
+		},
+        {
+			"sessionHead" : "Monitor and troubleshoot SQL Database",
+
+			"session": [
+                {
+					"lab" : "1. Monitor and troubleshoot SQL Database, monitor database activity, monitor using DMVs and DMFs, monitor performance and scalability"
+				},
+				{
+                    "lab" : "a. Monitoring Azure SQL Database using dynamic management views"
+                },
+                {
+                    "lab" : "b. Dynamic Management Views and Functions (Transact-SQL)"
+                }
+            ]
+		},
+        {
+			"sessionHead" : "Automate and manage database implementations on Azure",
+
+			"session": [
+                {
+					"lab" : "1. Manage SQL Server in Azure VMs with PowerShell, manage Azure SQL Database with PowerShell, configure Automation and Runbooks"
+				},
+				{
+                    "lab" : "a. Manage virtual machines using Azure Resource Manager and PowerShell"
+                },
+                {
+                    "lab" : "b. Create a virtual machine running Windows in the Azure classic portal"
+                },
+                {
+                    "lab" : "c. Manage your virtual machines by using Azure PowerShell"
+                },
+                {
+                    "lab" : "d. Manage Azure SQL Database with PowerShell"
+                },
+                {
+                    "lab" : "e. Authoring Automation Runbooks"
+                },
+                {
+                    "lab" : "f. Configuring Azure Automation"
+                },
+                {
+                    "lab" : "g. Deploy and manage virtual machines by using Azure Resource Manager templates and the Azure CLI"
+                }
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

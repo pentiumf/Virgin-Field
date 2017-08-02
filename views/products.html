@@ -12,7 +12,7 @@
         <h3>Virgin Fields Featured Products</h3>
     </div>
     
-    <div class="vf-products-wrapper clearfix">
+    <div class="vf-products-wrapper clearfix" ng-show="loader==false">
        
         <div class="vf-product-category" ng-repeat="cat in productsCat">
             <div class="vf-product-category-title">
@@ -31,4 +31,7 @@
         
     </div>
     
+    
+    <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+    </div>
 </div>

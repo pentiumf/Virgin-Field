@@ -72,23 +72,29 @@ angular.module("appController", [])
     
 }])
 .controller('partnersController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    $scope.loader = true;
     homeFactory.getPartners(function(result) {
        $scope.partners = result;
+        $scope.loader = false;
     });
     
 }])
 .controller('productsController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    $scope.loader = true;
     
     homeFactory.getProductsCategory(function(result) {
        $scope.productsCat = result;
+        $scope.loader = false;
     });
     
 }])
 .controller('productsListingsController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
+    $scope.loader = true;
     var param = $stateParams.name;
     
     homeFactory.getProducts(param, function(result) {
        $scope.data = result;
+        $scope.loader = false;
     });
     
     

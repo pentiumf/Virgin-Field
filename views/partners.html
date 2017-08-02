@@ -13,7 +13,7 @@
         <span></span>
     </div>
     
-    <div class="our-partners clearfix">
+    <div class="our-partners clearfix" ng-show="loader==false">
         <div class="partner animated fadeIn" ng-repeat="partner in partners">
             <div class="partner-logo">
                 <img ng-src="{{partner.logo}}"/>
@@ -21,4 +21,8 @@
             <a href="{{partner.website}}" target="_blank"></a>
         </div>
     </div>
-</div>
+    
+    <div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+    </div>
+</div> 
+

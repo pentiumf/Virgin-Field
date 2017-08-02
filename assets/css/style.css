@@ -671,7 +671,7 @@ body {
     padding: 8px 15px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 500; }
+    font-weight: 600; }
     .training-detail-wrap .training-details .training-section .course-section h4 i {
       color: #2EA9CD;
       padding-right: 5px; }
@@ -1659,6 +1659,10 @@ body {
       font-size: 16px; }
     .training-detail-wrap .training-details p {
       font-size: 14px; }
+    .training-detail-wrap .training-details .training-section .course-section h4 {
+      font-size: 13px; }
+    .training-detail-wrap .training-details .training-section .course-section ul li {
+      font-size: 13px; }
 
   .coming-soon-training .coming-soon-cap h1 {
     font-size: 23px; }

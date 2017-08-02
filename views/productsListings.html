@@ -1,4 +1,4 @@
-<div class="products-listings-wrapper">
+<div class="products-listings-wrapper" ng-show="loader==false">
     <div class="products-listings-bg" style="background-image: url({{data.bg}})">
         <div class="products-listings-capt">
             <h2>{{data.name}}</h2>
@@ -28,7 +28,9 @@
 </div>
 
 
-
+<div class="loader" ng-show="loader==true" ng-include src="'directiveTemplates/loader.html'">
+    
+</div>
 
 
 

@@ -1,1 +1,1 @@
-var app = angular.module("virginField", ["ui.router", "ncy-angular-breadcrumb", "appController", "appDirectives", "appServices", "appRoutes"]);
+var app = angular.module("virginField", ["ui.router", "angular-loading-bar", "ncy-angular-breadcrumb", "appController", "appDirectives", "appServices", "appRoutes"]);

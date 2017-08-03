@@ -1,20 +1,26 @@
 [
     {
-        "name" : "Internet Of Things(IoT)",
-        "routs" : "iot-products",
-        "desc" : "We Offer wide rande of IoT products for our customers. Get connected to our devices and make your life easy",
-        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526667/ereader_k7vb6h.png" 
+        "name" : "VGF Digital Business Platform",
+        "routs" : "digital-bussines",
+        "desc" : "API and Microservices driven with Big Data Analytics and Powerful visualization such as Microsoft Power BI, Tableau and Amazon QuickSight. Our VGF Digital Business Platform provides investment firms and other industry verticals quick near real-time analysis of investment opportunities enabling them to provide investment advice in real estate, securities and precious metals. Our big data analytics solution suite includes customer data Update and data collection in real-time via various investment APIs. Our solution is fully automated providing our customers a fully functional suite of multi-tiered web and mobile applications and deployable in a multi-cloud and onsite as is needed by the customer.",
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501716923/statistics_1_i5s17z.png"
     },
     {
-        "name" : "Big Data",
+        "name" : "VGF Intelligent IoT Operations Center",
+        "routs" : "iot-products",
+        "desc" : "VGF Intelligent IoT Operations Center that enables multi-cloud deployment and on-prem edge processing of IoT Device data. Our IoT Operations Application platform leverages Microsoft Azure IoT Platform & Cloud Services, AWS IoT including GreenGrass",
+        "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526667/ereader_k7vb6h.png"
+    },
+    {
+        "name" : "VGF IoT Platform with integrated Big Data Analytics",
         "routs" : "big-data-products",
-        "desc" : "Big Data Analytics for both large and small companies. We make day to day data collection easy",
+        "desc" : "Our IoT and Big Data Analytics solution provides insurance companies the ability to consolidate data stores from a variety of sources and utilize data analysis to drive their business process. Our solution include a suite of applications  providing migration, consolidation and  real-time analysis of customer driving behavior",
         "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526668/folder_tnpywv.png"
     },
     {
-        "name" : "Api Platform",
+        "name" : "VGF API Platform",
         "routs" : "vf-api-platfrom",
-        "desc" : "Connect with our API platform discover more..",
+        "desc" : "Start Training employees using online courses of Mule Startup",
         "logo" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501526667/api_t8lksu.png"
     }
 ]

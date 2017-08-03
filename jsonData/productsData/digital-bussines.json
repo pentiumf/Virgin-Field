@@ -1,0 +1,11 @@
+{
+    "name" : "VGF Digital Business Platform",
+    "bg" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501719000/Fintech-portal-digital-village-KPMG-Singapore-1440x564_c_sd0lm1.jpg",
+    "products" : [
+        {
+            "title" : "VGF Digital Business Platform",
+            "desc" : "API and Microservices driven with Big Data Analytics and Powerful visualization such as Microsoft Power BI, Tableau and Amazon QuickSight. Our VGF Digital Business Platform provides investment firms and other industry verticals quick near real-time analysis of investment opportunities enabling them to provide investment advice in real estate, securities and precious metals. Our big data analytics solution suite includes customer data Update and data collection in real-time via various investment APIs. Our solution is fully automated providing our customers a fully functional suite of multi-tiered web and mobile applications and deployable in a multi-cloud and onsite as is needed by the customer.",
+            "image" : "http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501719003/digital-dashboard_y5qchm.png"
+        }
+    ]
+}

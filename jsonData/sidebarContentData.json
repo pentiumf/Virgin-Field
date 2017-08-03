@@ -76,17 +76,22 @@
         "icon" : "fa fa-product-hunt",
         "links" : [
             {
-                "header": "Internet Of Things(IoT) Products",
+                "header": "VGF Digital Business Platform",
+                "route" : "products/digital-bussines",
+                "suDesc": "Explore The Wide Ranges Of Our Products."
+            },
+            {
+                "header": "VGF Intelligent IoT Operations Center",
                 "route" : "products/iot-products",
                 "suDesc": "Explore The Wide Ranges Of Our Products."
             },
             {
-                "header": "Big Data Analytics",
+                "header": "VGF IoT Platform with integrated Big Data Analytics",
                 "route" : "products/big-data-products",
                 "suDesc": "Explore The Wide Ranges Of Our Products."
             },
             {
-                "header": "VF Api Platform",
+                "header": "VGF API Platform",
                 "route" : "products/vf-api-platfrom",
                 "suDesc": "Explore The Wide Ranges Of Our Products."
             }

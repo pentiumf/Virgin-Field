@@ -468,6 +468,42 @@ body {
         left: 0;
         right: 0; }
 
+.coming-soon {
+  background-image: url(http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501700875/banner-training-1600px_ycyphh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  background-color: #505050;
+  background-blend-mode: multiply;
+  background-position: center;
+  color: #fff; }
+  .coming-soon .coming-soon-cap {
+    padding: 20px; }
+    .coming-soon .coming-soon-cap h1 {
+      font-size: 70px;
+      font-weight: 600; }
+    .coming-soon .coming-soon-cap p {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .coming-soon .coming-soon-cap a {
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      max-width: 150px;
+      height: 45px;
+      color: #fff;
+      background-color: #2EA9CD;
+      line-height: 45px;
+      border-radius: 2px;
+      margin: 10px 0;
+      font-size: 14px;
+      display: inline-block;
+      width: 200px;
+      max-width: 200px; }
+      .coming-soon .coming-soon-cap a:hover {
+        background-color: #1B96BA; }
+
 #trainingCategoryBg {
   background-image: url(http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501338774/dummy-6_okfos5.jpg); }
 
@@ -684,42 +720,6 @@ body {
     .training-detail-wrap .training-details .training-section .course-section ul li i {
       color: #000;
       padding-right: 5px; }
-
-.coming-soon-training {
-  background-image: url(http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501700875/banner-training-1600px_ycyphh.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 200px 0;
-  background-color: #505050;
-  background-blend-mode: multiply;
-  background-position: center;
-  color: #fff; }
-  .coming-soon-training .coming-soon-cap {
-    padding: 20px; }
-    .coming-soon-training .coming-soon-cap h1 {
-      font-size: 70px;
-      font-weight: 600; }
-    .coming-soon-training .coming-soon-cap p {
-      font-size: 20px;
-      margin-bottom: 30px; }
-    .coming-soon-training .coming-soon-cap a {
-      text-decoration: none;
-      text-align: center;
-      display: block;
-      max-width: 150px;
-      height: 45px;
-      color: #fff;
-      background-color: #2EA9CD;
-      line-height: 45px;
-      border-radius: 2px;
-      margin: 10px 0;
-      font-size: 14px;
-      display: inline-block;
-      width: 200px;
-      max-width: 200px; }
-      .coming-soon-training .coming-soon-cap a:hover {
-        background-color: #1B96BA; }
 
 .enroll-cousrse-wrapper {
   width: 45%;
@@ -1104,7 +1104,7 @@ body {
   height: 500px;
   background-size: cover;
   background-position: center;
-  background-image: url(http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501582844/ff_zwx0us.jpg); }
+  background-image: url(http://res.cloudinary.com/hvwqgvdi9/image/upload/v1501717343/products_z1qepr.jpg); }
   .product-container .products-bg:after {
     content: "";
     position: absolute;
@@ -1120,7 +1120,8 @@ body {
     position: absolute;
     z-index: 40;
     bottom: 50%;
-    width: 100%; }
+    width: 100%;
+    display: none; }
     .product-container .products-bg .products-bg-caption h1 {
       font-size: 40px;
       font-weight: 300;
@@ -1154,21 +1155,28 @@ body {
   padding: 0px 10px 80px 10px; }
   .product-container .vf-products-wrapper .vf-product-category {
     position: relative;
-    padding: 20px;
     width: 31%;
     float: left;
     margin: 1%;
     text-align: center;
-    height: 500px;
-    line-height: 100px;
     background-color: #017CA0;
     color: #fff;
     box-shadow: 0 15px 13px -8px rgba(2, 32, 50, 0.3); }
-    .product-container .vf-products-wrapper .vf-product-category .vf-product-category-title h2 {
-      font-size: 20px;
-      font-weight: 400; }
-    .product-container .vf-products-wrapper .vf-product-category .vf-product-category-img img {
-      width: 30%; }
+    .product-container .vf-products-wrapper .vf-product-category .vf-product-category-title {
+      padding: 20px 0; }
+      .product-container .vf-products-wrapper .vf-product-category .vf-product-category-title h2 {
+        font-size: 20px;
+        font-weight: 400; }
+    .product-container .vf-products-wrapper .vf-product-category .vf-product-category-img {
+      padding: 20px 0; }
+      .product-container .vf-products-wrapper .vf-product-category .vf-product-category-img img {
+        width: 30%; }
+    .product-container .vf-products-wrapper .vf-product-category .vf-product-category-capt {
+      background-color: #eee;
+      padding: 20px; }
+      .product-container .vf-products-wrapper .vf-product-category .vf-product-category-capt p {
+        font-size: 16px;
+        color: #000; }
     .product-container .vf-products-wrapper .vf-product-category .vf-product-category-button {
       padding: 0 20px; }
       .product-container .vf-products-wrapper .vf-product-category .vf-product-category-button a {
@@ -1412,9 +1420,9 @@ body {
     .training-detail-wrap .training-details h3 {
       font-size: 18px; }
 
-  .coming-soon-training .coming-soon-cap h1 {
+  .coming-soon .coming-soon-cap h1 {
     font-size: 40px; }
-  .coming-soon-training .coming-soon-cap p {
+  .coming-soon .coming-soon-cap p {
     font-size: 16px; }
 
   .enroll-cousrse-wrapper {
@@ -1664,9 +1672,9 @@ body {
     .training-detail-wrap .training-details .training-section .course-section ul li {
       font-size: 13px; }
 
-  .coming-soon-training .coming-soon-cap h1 {
+  .coming-soon .coming-soon-cap h1 {
     font-size: 23px; }
-  .coming-soon-training .coming-soon-cap p {
+  .coming-soon .coming-soon-cap p {
     font-size: 13px; }
 
   .enroll-cousrse-wrapper {
@@ -1753,12 +1761,12 @@ body {
     width: 100%;
     float: none;
     margin: 0;
-    margin-bottom: 2%;
-    height: 400px;
-    line-height: 75px; }
+    margin-bottom: 4%; }
     .product-container .vf-products-wrapper .vf-product-category .vf-product-category-title h2 {
       font-size: 20px;
       font-weight: 600; }
+    .product-container .vf-products-wrapper .vf-product-category .vf-product-category-button {
+      padding: 10px 20px; }
 
   .products-listings-wrapper .products-listings-bg .products-listings-capt {
     padding: 35px 30px 0; }

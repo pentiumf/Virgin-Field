@@ -83,6 +83,13 @@ angular.module("appRoutes", [])
             label: 'Products Listings',
             parent: 'products'
         }
+    }).state('comingSoon', {
+        url: '/coming-soon',
+        templateUrl: 'views/comingSoon.html',
+        controller: 'comingSoonController',
+        ncyBreadcrumb: {
+            label: 'Content Coming Soon'
+        }
     }).state('404', {
         url: '/404',
         templateUrl: 'views/404.html'

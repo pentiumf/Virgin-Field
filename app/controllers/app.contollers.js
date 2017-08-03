@@ -101,7 +101,12 @@ angular.module("appController", [])
 }])
 .controller('contactController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
     
-    console.log("contactus....")
+    //console.log("contactus....")
+    
+}])
+.controller('comingSoonController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    
+    
     
 }]);
 

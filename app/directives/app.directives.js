@@ -4,6 +4,7 @@ angular.module("appDirectives", []).directive("navBar", function () {
             var navLinks = elem.find('.nav-links');
             var settings = elem.find('#settingsMenu');
             var settingsClose = elem.find("#settingsMenuClose");
+            var links = elem.find('.nav-links a');
             
             settings.click(function() {
                 navLinks.show();
@@ -15,6 +16,16 @@ angular.module("appDirectives", []).directive("navBar", function () {
                     settings.show();
                 });
             });
+            
+            
+            $("body").on("click", ".nav-links a", function() {
+                if ($(window).width() <= 800) {
+                    navLinks.hide();
+                    settingsClose.hide();
+                    settings.show();
+                }
+            });
+            
             
         },
         templateUrl: 'directiveTemplates/navbar.html'

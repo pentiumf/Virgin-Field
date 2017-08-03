@@ -9,13 +9,11 @@
     <meta name="description" content="Number one solution to Big data analytics, Internet of thongs, Artificial Interligence">
     <meta name="keywords" content="IoT, internet of things, Machine Learning, M2M, Big Data Analytics, Artificial Interligence, AI, Training"/>
     <meta name="author" content="Virgin Field">
-
+    <link rel="fluid-icon" href="http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500519531/virginnfieldslogo_r17cbg.png" title="VirginFields">
     <title ncy-breadcrumb-last="{{ncyBreadcrumbLabel}}"></title>
-    
-<!--    <base href="/">-->
     <link rel="stylesheet" href="public/css/libs.css">
     <link rel="stylesheet" href="public/css/style.css">
-    <link rel="icon" type="image/x-icon" href="public/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="public/img/favicon.ico" title="VirginFields">
     
 </head>
 <body ng-controller="mainController">
@@ -29,11 +27,6 @@
     
    <div id="View" class="clearfix" ui-view autoscroll></div>
    
-<!--
-   <div class="well" ncy-breadcrumb>
-
-    </div>
--->
    
    <footer id="footer" class="clearfix" ng-include src="'directiveTemplates/footer.html'">
    </footer>

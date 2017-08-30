@@ -90,6 +90,13 @@ angular.module("appRoutes", [])
         ncyBreadcrumb: {
             label: 'Content Coming Soon'
         }
+    }).state('cloudServices', {
+        url: '/cloud-service',
+        templateUrl: 'views/cloudServices.html',
+        controller: 'cloudServicesController',
+        ncyBreadcrumb: {
+            label: 'Cloud Services'
+        }
     }).state('404', {
         url: '/404',
         templateUrl: 'views/404.html'

@@ -1246,6 +1246,100 @@ body {
     .products-listings-wrapper .products-listings-container .products-listing:last-child {
       border-bottom: none; }
 
+.cloud-services-wrapper .cloud-service-bg {
+  position: relative;
+  background-image: url(../../public/img/AnalyticsBigData.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-bottom: 50px; }
+  .cloud-services-wrapper .cloud-service-bg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4; }
+  .cloud-services-wrapper .cloud-service-bg .cloud-service-caption {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 40;
+    bottom: 50%;
+    width: 100%; }
+    .cloud-services-wrapper .cloud-service-bg .cloud-service-caption h2 {
+      font-size: 60px;
+      font-weight: 300; }
+    .cloud-services-wrapper .cloud-service-bg .cloud-service-caption span {
+      width: 170px;
+      height: 3px;
+      background: #2EA9CD;
+      display: inline-block; }
+  .cloud-services-wrapper .cloud-service-bg .cloud-service-bg-cover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    height: 35px;
+    width: 70%;
+    z-index: 10; }
+    .cloud-services-wrapper .cloud-service-bg .cloud-service-bg-cover:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 45px;
+      height: 35px;
+      right: -45px;
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iY29udmV4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjQ1cHgiIGhlaWdodD0iMzVweCIgdmlld0JveD0iMCAwIDQ1IDM1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NSAzNSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTAsMC4wMDFjMCwwLDMuODYyLTAuMjA1LDguNDM4LDQuMjc0YzcuMDg1LDYuOTM1LDE4LjkyNiwyMS4wMywyNy4xNDYsMjcuNDE4QzM4LjgzOSwzNC4yMjMsNDUsMzUsNDUsMzVIMCIvPjwvc3ZnPg==); }
+.cloud-services-wrapper .cloud-service-banner {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px; }
+  .cloud-services-wrapper .cloud-service-banner h2 {
+    font-size: 30px;
+    font-weight: 500; }
+.cloud-services-wrapper .cloud-services-container {
+  padding: 100px 20px;
+  background-color: #eee; }
+  .cloud-services-wrapper .cloud-services-container .cloud-service {
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    background: #fff; }
+    .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-img {
+      width: 100%; }
+      .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-img img {
+        width: 50%; }
+    .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap {
+      padding: 10px; }
+      .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap h3 {
+        font-size: 24px;
+        font-weight: 500; }
+      .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap a {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        max-width: 150px;
+        height: 40px;
+        color: #fff;
+        background-color: #2EA9CD;
+        line-height: 40px;
+        border-radius: 2px;
+        margin: 40px 0 10px 0;
+        font-size: 14px;
+        display: inline-block;
+        width: 150px; }
+        .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap a:hover {
+          background-color: #1B96BA; }
+
 @media screen and (max-width: 1025px) {
   .sidebar-container {
     width: 12%; }
@@ -1505,7 +1599,27 @@ body {
   .products-listings-wrapper .products-listings-container .products-listing .products-listing-left .products-listing-left-content p {
     font-size: 14px; }
   .products-listings-wrapper .products-listings-container .products-listing .products-listing-right .products-listing-img img {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  .cloud-services-wrapper .cloud-service-bg {
+    height: 400px; }
+    .cloud-services-wrapper .cloud-service-bg .cloud-service-caption h2 {
+      font-size: 40px; }
+    .cloud-services-wrapper .cloud-service-bg .cloud-service-caption span {
+      width: 130px; }
+  .cloud-services-wrapper .cloud-service-banner h2 {
+    font-size: 25px; }
+  .cloud-services-wrapper .cloud-services-container .cloud-service {
+    width: 47%;
+    height: 350px; }
+    .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-img img {
+      width: 40%; }
+    .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap {
+      padding: 10px; }
+      .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap h3 {
+        font-size: 18px; }
+      .cloud-services-wrapper .cloud-services-container .cloud-service .cloud-service-cap a {
+        width: 120px; } }
 @media screen and (max-width: 550px) {
   .error-wrapper {
     text-align: center;
@@ -1804,7 +1918,20 @@ body {
         margin: 0;
         margin-top: 5%; }
         .products-listings-wrapper .products-listings-container .products-listing .products-listing-right .products-listing-img img {
-          margin: 0; } }
+          margin: 0; }
+
+  .cloud-services-wrapper .cloud-service-bg {
+    height: 350px; }
+    .cloud-services-wrapper .cloud-service-bg .cloud-service-caption h2 {
+      font-size: 33px; }
+  .cloud-services-wrapper .cloud-service-banner h2 {
+    font-size: 20px; }
+  .cloud-services-wrapper .cloud-services-container .cloud-service {
+    float: none;
+    margin-left: 0;
+    height: 340px;
+    width: 100%;
+    margin-bottom: 4%; } }
 .error-wrapper {
   text-align: center;
   padding: 100px 20px; }

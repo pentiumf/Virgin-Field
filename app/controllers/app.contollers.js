@@ -99,6 +99,11 @@ angular.module("appController", [])
     
     
 }])
+.controller('cloudServicesController', ['$scope', 'homeFactory', function($scope, homeFactory) {
+    $scope.loader = true;
+    
+    
+}])
 .controller('contactController', ['$scope', '$stateParams', 'homeFactory', function($scope, $stateParams, homeFactory) {
     
     //console.log("contactus....")
@@ -109,6 +114,7 @@ angular.module("appController", [])
     
     
 }]);
+
 
 
 

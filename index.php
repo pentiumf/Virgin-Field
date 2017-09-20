@@ -8,7 +8,7 @@
     <meta name="msapplication-navbutton-color" content="#000">
     <meta name="description" content="Number one solution to Big data analytics, Internet of thongs, Artificial Interligence">
     <meta name="keywords" content="IoT, internet of things, Machine Learning, M2M, Big Data Analytics, Artificial Interligence, AI, Training"/>
-    <meta name="author" content="Virgin Field">
+    <meta name="author" content="Virgin Fields">
     <link rel="fluid-icon" href="http://res.cloudinary.com/hvwqgvdi9/image/upload/v1500519531/virginnfieldslogo_r17cbg.png" title="VirginFields">
     <title ncy-breadcrumb-last="{{ncyBreadcrumbLabel}}"></title>
     <link rel="stylesheet" href="public/css/libs.css">
@@ -20,7 +20,7 @@
    <div class="overlay"></div>
 
    <nav-bar></nav-bar>
-   
+    
    <search-engine></search-engine>
    
    <side-bar></side-bar>
